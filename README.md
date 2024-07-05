@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
+| [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
@@ -47,9 +48,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 ## Linked List
 |  |
 | ------- |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
