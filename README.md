@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0101-symmetric-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0101-symmetric-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
 ## Simulation
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0563-binary-tree-tilt) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
@@ -107,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0101-symmetric-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0563-binary-tree-tilt) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
@@ -122,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0563-binary-tree-tilt) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
@@ -156,4 +161,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+## Design
+|  |
+| ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 <!---LeetCode Topics End-->
