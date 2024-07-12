@@ -7,35 +7,47 @@ class Solution
 {
 	public:
 	//Function to return list containing vertices in Topological order. 
-	void dfs(int node,vector<int>&vis,stack<int>&st,vector<int>adj[]){
-	    vis[node]=1;
-	    for(auto it:adj[node]){
-	        if(!vis[it]){
-	            dfs(it,vis,st,adj);
-	        }
-	    }
-	    st.push(node);
-	}
-	vector<int> topoSort(int V, vector<int> adj[]) 
-	{
-	    // code here
-	    stack<int>st;
-	    vector<int>vis(V,0);
-	    for(int i=0;i<V;i++){
-	        if(!vis[i]){
-	            dfs(i,vis,st,adj);
-	        }
-	    }
-	    vector<int>ans;
-	    if(st.size()!=V){
-	        return {-1};
-	    }
-	    while(!st.empty()){
-	        ans.push_back(st.top());
-	        st.pop();
-	    }
-	    return ans;
-	}
+vector<int> topoSort(int V, vector<int> adj[]) {
+    // Initialize indegree array
+    int indegree[V] = {0};
+    
+    // Calculate indegrees of all nodes
+    for (int i = 0; i < V; i++) {
+        for (auto it : adj[i]) {
+            indegree[it]++;  // Corrected from indegree[i] to indegree[it];
+        }
+    }
+    
+    queue<int> q;
+    
+    // Enqueue nodes with zero indegree
+    for (int i = 0; i < V; i++) {
+        if (indegree[i] == 0) {
+            q.push(i);
+        }
+    }
+    
+    vector<int> topo;
+    
+    // Process the nodes
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+        
+        topo.push_back(node);
+        
+        // Decrease indegree for adjacent nodes
+        for (auto it : adj[node]) {
+            indegree[it]--;
+            if (indegree[it] == 0) {
+                q.push(it);
+            }
+        }
+    }
+    
+    return topo;
+}
+
 };
 
 //{ Driver Code Starts.
