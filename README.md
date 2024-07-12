@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
 ## Matrix
 |  |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1005-univalued-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1005-univalued-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Backtracking
 |  |
 | ------- |
@@ -145,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1005-univalued-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1005-univalued-binary-tree) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -184,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0222-count-complete-tree-nodes) |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -229,4 +234,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Union Find
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
