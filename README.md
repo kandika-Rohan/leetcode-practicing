@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
 ## Combinatorics
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
@@ -50,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
+| [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 ## Breadth-First Search
 |  |
@@ -58,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
