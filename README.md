@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Combinatorics
 |  |
 | ------- |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Greedy
 |  |
