@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
 | [0039-combination-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0040-combination-sum-ii) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
