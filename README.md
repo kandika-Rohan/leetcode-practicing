@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Monotonic Stack
