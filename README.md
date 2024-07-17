@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
+| [0084-largest-rectangle-in-histogram](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0084-largest-rectangle-in-histogram) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Union Find
 |  |
