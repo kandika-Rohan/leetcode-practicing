@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0132-palindrome-partitioning-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+| [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+| [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0085-maximal-rectangle) |
+| [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
