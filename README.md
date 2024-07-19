@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0062-unique-paths) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
 | [0039-combination-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0085-maximal-rectangle) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -288,12 +291,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0085-maximal-rectangle) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
