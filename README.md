@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1121-partition-array-for-maximum-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
