@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
+| [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
@@ -352,4 +354,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
