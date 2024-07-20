@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0132-palindrome-partitioning-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0152-maximum-product-subarray) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0312-burst-balloons) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0152-maximum-product-subarray) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
