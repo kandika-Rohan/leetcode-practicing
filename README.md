@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0147-insertion-sort-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Bit Manipulation
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 ## Binary Search
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -368,4 +371,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
