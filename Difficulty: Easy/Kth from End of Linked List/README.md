@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=2&sortBy=submissions">Kth from End of Linked List</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><div id=":po" class="ajy" tabindex="0" role="button" aria-haspopup="true" data-tooltip="Show details" aria-label="Show details"><img class="ajz" src="https://mail.google.com/mail/u/0/images/cleardot.gif" alt=""><span style="font-size: 18px;">Given head of a linked list and a number <strong>k</strong>, your task is to find the <strong>k</strong><sup>th</sup> node from the end. If <strong>k</strong> is more than the number of nodes, then the output should be -1. <br></span></div>
+<div dir="ltr">
+<p><span style="font-size: 18px;">The following is <strong>internal representation</strong> of every test case (</span><span style="font-size: 18px;">three inputs). <br></span><span style="font-size: 18px;"><strong>n</strong> :&nbsp; Size of the linked list<br><strong>k </strong>: Postion (from end) of the node to be found<br></span><strong><span style="font-size: 18px;">value[] </span></strong><span style="font-size: 18px;">:&nbsp; An array of values that represents values of nodes.</span></p>
+<p><strong><span style="font-size: 18px;">Examples<br></span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 9, k = 2, value[] = {1,2,3,4,5,6,7,8,9}
+<strong>Output: </strong>8<strong>
+Explanation: </strong>The given linked list is </span><span style="font-size: 18px;">1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6-&gt;7-&gt;8-&gt;9. The </span><span style="font-size: 18px;">2nd node from end is 8.&nbsp; </span>
+</pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 4, k = 5, value[] = {10,5,100,5}
+<strong>Output: </strong>-1<strong>
+Explanation: </strong>The given linked list is </span><span style="font-size: 18px;">10-&gt;5-&gt;100-&gt;5</span><span style="font-size: 18px;">. Since 'k' is more than the number of nodes, the output is -1.</span></pre>
+<p><span style="font-size: 18px;"><strong>Note:&nbsp; </strong>Try to solve in a single traversal.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(n).<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1).</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n &lt;= 10<sup>6</sup><br>1 &lt;= k &lt;= 10<sup>6</sup></span></p>
+</div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Morgan Stanley</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>FactSet</code>&nbsp;<code>Hike</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>Adobe</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>Epic Systems</code>&nbsp;<code>Citicorp</code>&nbsp;<code>Monotype Solutions</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
