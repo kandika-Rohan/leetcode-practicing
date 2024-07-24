@@ -11,7 +11,7 @@ public:
     }
 
     void flatten(TreeNode* root) {
-        if (!root) return; // Add a check for empty root
+        if (!root) return; 
 
         vector<int> ds;
         inorder(root, ds);
@@ -27,11 +27,6 @@ public:
         }
         temp->left = nullptr;
         temp->right = nullptr;
-
-        // Marked mistake: This line does not update the original tree.
-        // root = Newroot;
-
-        // Correct way to update the original tree:
         *root = *Newroot;
     }
 };
