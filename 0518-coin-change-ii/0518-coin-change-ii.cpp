@@ -1,21 +1,20 @@
 class Solution {
 public:
-    int f(int ind,int amount,vector<int>&coins,vector<vector<int>>&dp){
-        if(ind==0){
-            return (amount%coins[ind]==0);
-        }
-        if(dp[ind][amount] != -1){
-            return dp[ind][amount];
-        }
-        int nottake=f(ind-1,amount,coins,dp);
-        int take=0;
-        if(coins[ind]<=amount){
-            take=f(ind,amount-coins[ind],coins,dp);
-        }
-        return dp[ind][amount]=(take+nottake);
-    }
     int change(int amount, vector<int>& coins) {
-        vector<vector<int>>dp(coins.size(),vector<int>(amount+1,-1));
-        return f(coins.size()-1,amount,coins,dp);
+        int n = coins.size();
+        vector<vector<int>> dp(n, vector<int>(amount + 1, 0));
+
+        for (int i = 0; i < n; ++i) {
+            dp[i][0] = 1;
+        }
+        for (int i = 0; i < n; ++i) {
+            for (int j = 1; j <= amount; ++j) {
+                int nottake = (i > 0) ? dp[i-1][j] : 0;
+                int take = (j >= coins[i]) ? dp[i][j - coins[i]] : 0;
+                dp[i][j] = nottake + take;
+            }
+        }
+
+        return dp[n-1][amount];
     }
 };
