@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0062-unique-paths) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 | [0115-distinct-subsequences](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
@@ -435,4 +438,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
