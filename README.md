@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
 ## Matrix
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 ## Divide and Conquer
 |  |
 | ------- |
