@@ -27,7 +27,7 @@ public:
             right = max(right, quantities[i]);
         }
         int res = -1;
-        int left = 1;
+        int left = 0;
         while(left <= right){
             int mid = left + (right - left) / 2;
             if(check(quantities, mid , store, n)){
