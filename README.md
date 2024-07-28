@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0039-combination-sum) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0222-count-complete-tree-nodes) |
