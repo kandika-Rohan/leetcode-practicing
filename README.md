@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0907-koko-eating-bananas) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Divide and Conquer
 |  |
