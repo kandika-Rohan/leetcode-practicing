@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0101-symmetric-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
+| [0210-course-schedule-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0199-binary-tree-right-side-view) |
+| [0210-course-schedule-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0210-course-schedule-ii) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -445,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0210-course-schedule-ii) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Queue
 |  |
