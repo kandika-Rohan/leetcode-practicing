@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1073-number-of-enclaves](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1005-univalued-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1005-univalued-binary-tree) |
 | [1036-rotting-oranges](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -249,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1005-univalued-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1005-univalued-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1073-number-of-enclaves) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
@@ -383,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [1073-number-of-enclaves](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 ## Heap (Priority Queue)
 |  |
