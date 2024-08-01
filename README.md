@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0056-merge-intervals) |
 | [0147-insertion-sort-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0147-insertion-sort-list) |
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
