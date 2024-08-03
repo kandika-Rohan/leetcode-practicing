@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0977-distinct-subsequences-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0977-distinct-subsequences-ii) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0086-partition-list) |
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
+| [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
