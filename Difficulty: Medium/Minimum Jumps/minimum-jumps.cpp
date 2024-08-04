@@ -9,10 +9,9 @@ using namespace std;
 class Solution{
   public:
     int minJumps(int arr[], int n) {
-    // If the array has only one element or is empty, no jumps are needed
+  
     if (n <= 1) return 0;
-    
-    // If the first element is 0, end cannot be reached
+
     if (arr[0] == 0) return -1;
     
     int l = 0;
@@ -24,7 +23,6 @@ class Solution{
         for (int i = l; i <= r; i++) {
             farthest = max(farthest, i + arr[i]);
         }
-        // If we cannot move forward
         if (farthest <= r) {
             return -1;
         }
@@ -37,6 +35,7 @@ class Solution{
 }
 
 };
+
 
 
 //{ Driver Code Starts.
