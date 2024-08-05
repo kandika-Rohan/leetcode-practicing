@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2727-number-of-senior-citizens) |
 ## Simulation
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
@@ -521,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0948-sort-an-array) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Binary Indexed Tree
 |  |
 | ------- |
