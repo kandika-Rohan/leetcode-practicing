@@ -96,46 +96,42 @@ class Solution {
   public:
     // Function to return a list of integers denoting the node
     // values of both the BST in a sorted order.
-    vector<int>merge(vector<int>&a,vector<int>&b){
-        vector<int>ans;
+    vector<int>mergesort(vector<int>&ds1,vector<int>&ds2){
+        int n=ds1.size();
+        int m=ds2.size();
+        vector<int>ans(n+m);
+        int k=0;
         int i=0;int j=0;
-        int n=a.size();int m=b.size();
-        while(i<n && j<m){
-            if(a[i]<b[j]){
-                ans.push_back(a[i]);
-                i++;
+        while(i<n && j < m){
+            if(ds1[i] <= ds2[j]){
+                ans[k++]=ds1[i++];
             }
             else{
-                ans.push_back(b[j]);
-                j++;
+                ans[k++]=ds2[j++];
             }
         }
         
         while(i<n){
-            ans.push_back(a[i]);
-            i++;
+            ans[k++]=ds1[i++];
         }
         while(j<m){
-            ans.push_back(b[j]);
-            j++;
+            ans[k++]=ds2[j++];
         }
+        
         return ans;
     }
-    void inorder(Node*root1,vector<int>&ds){
-        if(!root1){
-            return;
-        }
-        inorder(root1->left,ds);
-        ds.push_back(root1->data);
-        inorder(root1->right,ds);
+    void inorder(vector<int>&ds,Node*root){
+        if(!root)return;
+        inorder(ds,root->left);
+        ds.push_back(root->data);
+        inorder(ds,root->right);
     }
     vector<int> merge(Node *root1, Node *root2) {
         // Your code here
         vector<int>ds1,ds2;
-        inorder(root1,ds1);
-        inorder(root2,ds2);
-        vector<int>ans=merge(ds1,ds2);
-        return ans;
+        inorder(ds1,root1);
+        inorder(ds2,root2);
+        return mergesort(ds1,ds2);
     }
 };
 
