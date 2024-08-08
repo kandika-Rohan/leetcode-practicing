@@ -21,27 +21,24 @@
  */
 class Solution {
 public:
-    TreeNode*makeBST(int s,int e,vector<int>&ds){
-        if(s>e){
-            return nullptr;
-        }
-        int mid=s+(e-s)/2;
+    TreeNode*construct(vector<int>&ds,int l,int h){
+        if(l>h)return nullptr;
+        int mid=(l+h)/2;
         TreeNode*root=new TreeNode(ds[mid]);
-        root->left=makeBST(s,mid-1,ds);
-        root->right=makeBST(mid+1,e,ds);
+        root->left=construct(ds,l,mid-1);
+        root->right=construct(ds,mid+1,h);
         return root;
+    }
+    void solve(vector<int>&ds,ListNode*head){
+        if(!head)return;
+        ds.push_back(head->val);
+        solve(ds,head->next);
     }
     TreeNode* sortedListToBST(ListNode* head) {
         vector<int>ds;
-        if(head == nullptr){
-            return nullptr;
-        }
-        ListNode*temp=head;
-        while(temp){
-            ds.push_back(temp->val);
-            temp=temp->next;
-        }
-        TreeNode*root=makeBST(0,ds.size()-1,ds);
+        solve(ds,head);
+        int n=ds.size();
+        TreeNode*root=construct(ds,0,n-1);
         return root;
     }
 };
