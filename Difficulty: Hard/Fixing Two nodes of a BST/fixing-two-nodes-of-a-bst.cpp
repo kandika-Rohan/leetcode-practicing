@@ -112,37 +112,39 @@ struct Node
 */
 
 class Solution {
+   
   public:
-    Node* first;
-    Node* prev;
-    Node* middle;
-    Node* last;
-
-    void inorder(Node* root) {
-        if (!root) {
-            return;
-        }
-        inorder(root->left);
-        if (prev && prev->data > root->data) {
-            if (!first) {
-                first = prev;
-                middle = root;
-            } else {
-                last = root;
+   Node*first;
+    Node*prev;
+    Node*middle;
+    Node*last;
+    void solve(Node*root){
+        if(!root)return;
+        
+        solve(root->left);
+        if(prev && prev->data > root->data){
+            if(!first){
+                first=prev;
+                middle=root;
+            }
+            else{
+                last=root;
             }
         }
-        prev = root;
-        inorder(root->right);
+        prev=root;
+        solve(root->right);
     }
-
-    void correctBST(Node* root) {
-        first = middle = last = prev = nullptr;
-        inorder(root);
-        if (first && last) {
-            swap(first->data, last->data);
-        } else if (first && middle) {
-            swap(first->data, middle->data);
+    void correctBST( struct Node* root )
+    {
+        
+        first=middle=prev=last=nullptr;
+        solve(root);
+        if(first && last){
+            swap(first->data,last->data);
         }
+       else if(first && middle){
+           swap(first->data,middle->data);
+       }
     }
 };
 
