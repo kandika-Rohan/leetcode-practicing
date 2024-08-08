@@ -98,31 +98,18 @@ class Solution
 {
     public:
     void inorder(Node*root,int &sum){
-        if(!root){
-            return;
-        }
-        inorder(root->left,sum);
-        sum+=root->data;
+        if(!root)return;
         inorder(root->right,sum);
-    }
-    void solve(Node*root,int &sum){
-        if(!root){
-            return;
-        }
-        solve(root->left,sum);
-        int val=root->data;
-        root->data=sum-val;
-        sum-=val;
-        
-        solve(root->right,sum);
+        int x=root->data;
+        root->data=sum;
+        sum +=x;
+        inorder(root->left,sum);
     }
     void transformTree(struct Node *root)
     {
-        //code here
+       
         int sum=0;
         inorder(root,sum);
-        solve(root,sum);
-        
     }
 };
 
