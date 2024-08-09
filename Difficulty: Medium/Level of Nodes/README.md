@@ -1,0 +1,18 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/level-of-nodes-1587115620/1">Level of Nodes</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer <strong>x</strong> and an undirected acyclic graph with <strong>v nodes</strong>, labeled from <strong>0 </strong>to <strong>v-1</strong>, and <strong>e </strong>edges, return the <strong>level </strong>of node labeled as <strong>x</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Level </strong>is the <strong>minimum </strong>number of edges you must travel from the node 0 to some target.</span></p>
+<p><span style="font-size: 18px;">If there doesn't exists such a node that is labeled as <strong>x</strong>, <strong>return -1</strong>.<br></span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">x</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> = 4</span><strong><br></strong></span>
+<img src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/701248/Web/Other/afb73eb4-8c50-4e77-b161-e3fd4d35939c_1685086954.png" alt="">
+<span style="font-size: 18px;"><strong>Output: </strong>2
+<strong>Explanation</strong>:
+</span><img src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/701248/Web/Other/ef6cced7-96f1-46e4-bf8b-4fc091c04ee7_1685086954.png" alt="">
+<span style="font-size: 18px;">We can clearly see that Node 4 lies at Level 2.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">x</strong><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> = 1</span><strong><br></strong></span>
+<img src="https://media.geeksforgeeks.org/img-practice/PROD/addEditProblem/701248/Web/Other/79ea2467-b795-4328-a0aa-d2679f671e55_1685086954.png" alt="">
+<span style="font-size: 18px;"><strong>Output: </strong>1
+<strong>Explanation</strong>: Node 1 lies at level 1, immediate after Node 0.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(v)<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(v)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>2 </span> <span style="font-size: 18px;">≤</span> v<span style="font-size: 18px;">&nbsp;</span><span style="font-size: 18px;">≤</span> <span style="font-size: 18px;"> 10<sup>4<br></sup></span><span style="font-size: 18px;">1 ≤<span style="font-size: medium;"> e</span>&nbsp;≤<span style="font-size: medium;">&nbsp;</span>10<sup>4</sup><br>0 </span> <span style="font-size: 18px;">≤</span> adj<span style="font-size: 18px;"><sub>i, j</sub> &lt; v</span><br><span style="font-size: 18px;">1 </span> <span style="font-size: 18px;">≤</span> x<span style="font-size: 18px;">&nbsp;</span><span style="font-size: 18px;">&lt;</span> <span style="font-size: 14pt;">v</span><span style="font-size: 18px;"><br></span></p>
+<p><span style="font-size: 18px;"><strong>Note : </strong>Graph doesn't contain multiple edges and self loops.</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;<code>BFS</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
