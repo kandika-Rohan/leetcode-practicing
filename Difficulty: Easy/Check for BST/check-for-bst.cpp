@@ -20,19 +20,19 @@ struct Node {
 class Solution {
   public:
     // Function to check whether a Binary Tree is BST or not.
-    bool f(Node*root,int mini,int maxi){
-        if(!root){
-            return true;
-        }
-        if(root->data > mini && root->data < maxi){
-            bool left=f(root->left,mini,root->data);
-            bool right=f(root->right,root->data,maxi);
+    bool f(Node*root,int maxi,int mini){
+        if(!root)return true;
+        if(root->data>mini && root->data < maxi){
+            bool left=f(root->left,root->data,mini);
+            bool right=f(root->right,maxi,root->data);
             return left && right;
         }
         return false;
     }
     bool isBST(Node* root) {
-        return f(root,INT_MIN,INT_MAX);
+        // Your code here
+        return f(root,INT_MAX,INT_MIN);
+        
     }
 };
 
