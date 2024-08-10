@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0504-base-7](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0504-base-7) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0085-maximal-rectangle) |
+| [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0120-triangle) |
 | [0132-palindrome-partitioning-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0132-palindrome-partitioning-ii) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0101-symmetric-tree) |
@@ -307,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0101-symmetric-tree) |
@@ -413,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0099-recover-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
