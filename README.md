@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
+| [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 | [0504-base-7](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0504-base-7) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
+| [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
+| [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0518-coin-change-ii) |
@@ -604,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
+| [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 ## Ordered Set
 |  |
 | ------- |
@@ -612,4 +616,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
