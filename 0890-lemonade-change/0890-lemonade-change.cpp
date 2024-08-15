@@ -1,31 +1,33 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
-        int fiveBills=0;
-        int tenBills=0;
-        for(auto bill:bills){
-            //case where customer with bill 5 
-            if(bill==5){
-                fiveBills++;
+        
+        // if(bills[0] != 5)return false;
+        int fivecnt=0;
+        int tencnt=0;
+
+        for(auto it:bills){
+
+            if(it == 5){
+                fivecnt++;
             }
-            //case where customer with bill 10
-            else if(bill==10){
-                if(fiveBills>=1){
-                    fiveBills--;
-                    tenBills++;
+            else if(it == 10){
+                tencnt++;
+                if(fivecnt>=1){
+                    fivecnt-=1;
                 }
                 else{
                     return false;
                 }
             }
-            //case where customer with bill 20
-            else {
-                if(tenBills>=1 && fiveBills>=1){
-                    fiveBills--;
-                    tenBills--;
+            else{
+                //this is the case of when we get the 20 rupees coins
+                if(tencnt>=1 && fivecnt>=1){
+                    tencnt-=1;
+                    fivecnt-=1;
                 }
-                else if(fiveBills>=3){
-                    fiveBills-=3;
+                else if(fivecnt>=3){
+                    fivecnt-=3;
                 }
                 else{
                     return false;
