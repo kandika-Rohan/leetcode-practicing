@@ -5,19 +5,47 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
-class Solution {
-  public:
-    void dfs(int node,vector<int>&vis,vector<int>adjlist[]){
-        vis[node]=1;
-        for(auto it:adjlist[node]){
-            if(!vis[it]){
-                dfs(it,vis,adjlist);
-            }
+class DisjointSet{
+    vector<int>parent,size,rank;
+    public:
+    DisjointSet(int n){
+        parent.resize(n+1);
+        size.resize(n+1,1);
+        rank.resize(n+1,0);
+        
+        for(int i=0;i<=n;i++){
+            parent[i]=i;
         }
     }
+    
+    int findparent(int x){
+        if(parent[x] == x)return x;
+        return parent[x]=findparent(parent[x]);
+    }
+    
+    void unionFindRank(int u,int v){
+        int x=findparent(u);
+        int y=findparent(v);
+        
+        if(x == y)return;
+        
+        if(rank[x]<rank[y]){
+            parent[x]=y;
+            
+        }
+        else if(rank[x]>rank[y]){
+            parent[y]=x;
+        }
+        else{
+            parent[y]=x;
+            rank[x]++;
+        }
+    }
+};
+class Solution {
+  public:
     int numProvinces(vector<vector<int>> adj, int V) {
-        // code here
+        
         vector<int>adjlist[V];
         for(int i=0;i<adj.size();i++){
             for(int j=0;j<adj[0].size();j++){
@@ -27,16 +55,30 @@ class Solution {
                 }
             }
         }
-        vector<int>vis(V,0);
-        int count=0;
+        
+        
+        
+        DisjointSet ds(V);
+        
+        
         for(int i=0;i<V;i++){
-            if(!vis[i]){
-                count++;
-                dfs(i,vis,adjlist);
+            for(auto it:adjlist[i]){
+                if(i<it){
+                    if(ds.findparent(i) == ds.findparent(it)){
+                        continue;
+                    }
+                }
+                
+                ds.unionFindRank(i,it);
             }
         }
-        return count;
-        
+        int cnt=0;
+        for(int i=0;i<V;i++){
+            if(i == ds.findparent(i)){
+                cnt++;
+            }
+        }
+        return cnt;
     }
 };
 
