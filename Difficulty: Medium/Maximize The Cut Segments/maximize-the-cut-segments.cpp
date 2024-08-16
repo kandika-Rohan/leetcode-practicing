@@ -27,8 +27,9 @@ class Solution
         //Your code here
         vector<int>dp(n+1,-1);
         int ans= f(n,x,y,z,dp);
-        if(ans<0)return 0;
-        return ans;
+        
+        return ans<0?0:ans;
+        
     }
 };
 
