@@ -8,39 +8,36 @@ class Solution
 	public:
 	//Function to find the shortest distance of all the vertices
     //from the source vertex S.
-
-
-vector<int> dijkstra(int V, vector<vector<int>> adj[], int S) {
-    // Min-heap priority queue to store {distance, node}
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> minheap;
-    
-    // Initialize distances with infinity
-    vector<int> dis(V, 1e9);
-    
-    // Start with the source node
-    minheap.push({0, S}); // {distance, node}
-    dis[S] = 0;
-    
-    while(!minheap.empty()) {
-        auto it = minheap.top();
-        int node = it.second;
-        int dist = it.first;
-        minheap.pop();
+    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
+    {
+        // Code here
         
-        // Traverse adjacent nodes
-        for(auto adjNode : adj[node]) {
-            int adjVertex = adjNode[0]; // Get adjacent vertex
-            int weight = adjNode[1];    // Get edge weight
-            if(dis[node] + weight < dis[adjVertex]) { // Check if shorter path found
-                dis[adjVertex] = dis[node] + weight;
-                minheap.push({dis[adjVertex], adjVertex}); // Push updated distance
+        vector<int>dist(V,1e9);
+        
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<
+        int,int>>>q;
+        
+        
+        q.push({0,S});
+        dist[S]=0;
+        
+        while(!q.empty()){
+            auto node=q.top();
+            q.pop();
+            int nodeval=node.second;
+            int wt=node.first;
+            for(auto it:adj[nodeval]){
+                int adjnode=it[0];
+                int weight=it[1];
+                if(wt+weight<dist[adjnode]){
+                    dist[adjnode]=wt+weight;
+                    q.push({wt+weight,adjnode});
+                }
             }
         }
+        
+        return dist;
     }
-    
-    return dis;
-}
-
 };
 
 
