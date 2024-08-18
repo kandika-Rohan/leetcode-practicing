@@ -6,47 +6,53 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-class Solution {;
-
+class Solution {
   public:
-    vector<int> shortestPath(vector<vector<int>>& edges, int N,int M, int src){
-        // code here
-    
+    vector<int> shortestPath(vector<vector<int>>& edges,
+    int N,int M, int src){
+        
         vector<int>adj[N];
         
         for(auto it:edges){
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
+            int u=it[0];
+            int v=it[1];
+            
+            adj[v].push_back(u);
+            adj[u].push_back(v);
         }
-       int dist[N];
-       for(int i=0;i<N;i++){
-           dist[i]=1e9;
-       }
         
-       priority_queue<pair<int,int>,vector<pair<int,int>>,
-       greater<pair<int,int>>>q;
-       q.push({0,src});
-    
+        vector<int>dist(N,1e9);
+        
+        priority_queue<pair<int,int>,vector<pair<int,int>>,
+        greater<pair<int,int>>>q;
+        q.push({0,src});
+        
         dist[src]=0;
         while(!q.empty()){
-          auto n=q.top();
-          q.pop();
-          int distance=n.first;
-          int node=n.second;
-          for(auto it:adj[node]){
-              if(distance+1<dist[it]){
-                  dist[it]=distance+1;
-                  q.push({distance+1,it});
-              }
-          }
+            auto val=q.top();
+            q.pop();
+            int wt=val.first;
+            int node=val.second;
+            
+            for(auto it:adj[node]){
+                
+                if(1+wt < dist[it]){
+                    dist[it]=1+wt;
+                    q.push({1+wt,it});
+                }
+            }
         }
-       vector<int>ans(N,-1);
-       for(int i=0;i<N;i++){
-           if(dist[i] != 1e9){
-               ans[i]=dist[i];
-           }
-       }
-       return ans;
+        
+      
+      
+      for(int i=0;i<N;i++){
+          if(dist[i] == 1e9){
+              dist[i]=-1;
+          }
+      }
+            
+        return dist;
+        
     }
 };
 
