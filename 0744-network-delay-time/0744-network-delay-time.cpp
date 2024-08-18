@@ -1,43 +1,45 @@
-#include <vector>
-#include <queue>
-using namespace std;
-
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<vector<pair<int, int>>> adj(n + 1);
-        for (const auto& time : times) {
-            adj[time[0]].push_back({time[1], time[2]});
+        vector<pair<int,int>>adj[n+1];
+
+        for(auto it:times){
+            int u=it[0];
+            int v=it[1];
+            int wt=it[2];
+            adj[u].push_back({v,wt});
         }
 
-        // Priority queue to store {time, node}
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        vector<int> dist(n + 1, 1e9);
-        dist[k] = 0;
-        pq.push({0, k}); // {time, source}
+        priority_queue<pair<int,int>,vector<pair<int,int>>,
+        greater<pair<int,int>>>q;
 
-        while (!pq.empty()) {
-            int time = pq.top().first;
-            int node = pq.top().second;
-            pq.pop();
+        vector<int>dist(n+1,1e9);
 
-            if (time > dist[node]) continue; // Skip if we've already found a shorter path to this node
+        q.push({0,k});
+        dist[k]=0;
 
-            for (const auto& neighbor : adj[node]) {
-                int nextNode = neighbor.first;
-                int travelTime = neighbor.second;
-                if (time + travelTime < dist[nextNode]) {
-                    dist[nextNode] = time + travelTime;
-                    pq.push({dist[nextNode], nextNode});
+        while(!q.empty()){
+            auto val=q.top();
+            q.pop();
+            int time=val.first;
+            int node=val.second;
+
+            for(auto it:adj[node]){
+                int adjnode=it.first;
+                int cost=it.second;
+                if(cost+time < dist[adjnode]){
+                    dist[adjnode]=cost+time;
+                    q.push({cost+time,adjnode});
                 }
             }
         }
 
-        int maxTime = 0;
+       int maxTime = 0;
         for (int i = 1; i <= n; ++i) {
-            if (dist[i] == 1e9) return -1; // If any node is unreachable
+            if (dist[i] == 1e9) return -1; 
             maxTime = max(maxTime, dist[i]);
         }
         return maxTime;
+
     }
 };
