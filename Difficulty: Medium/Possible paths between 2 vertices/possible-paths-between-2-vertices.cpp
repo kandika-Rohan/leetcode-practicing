@@ -5,30 +5,29 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-
-   void dfs(int s,int d,vector<int>&vis,vector<int> adj[],int&paths)
-    {
-        if(s==d){
-            paths++;
-            return;
-        }
-        for(int i:adj[s])
-        {
-            if(!vis[i])
-            {
-                vis[i]=1;
-                dfs(i,d,vis,adj,paths);
-                vis[i]=0;
+    // Function to count paths between two vertices in a directed graph.
+    int countPaths(int V, vector<int> adj[], int source, int destination) {
+        
+        
+        
+        queue<int>q;
+        vector<int>vis(V,0);
+        vis[source]=1;
+        q.push(source);
+        int count=0;
+        while(!q.empty()){
+            auto node=q.front();
+            q.pop();
+            if(node == destination){
+                count++;
+            }
+            for(auto it:adj[node]){
+                if(!vis[it]){
+                    q.push(it);
+                }
             }
         }
-    }
-    int countPaths(int V, vector<int> adj[], int source, int destination) {
-        vector<int>vis(V,0);
-        int paths=0;
-        vis[source]=1;
-        dfs(source,destination,vis,adj,paths);
-        return paths;
-        
+        return count;
     }
 };
 
