@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
@@ -515,12 +516,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Sorting
 |  |
