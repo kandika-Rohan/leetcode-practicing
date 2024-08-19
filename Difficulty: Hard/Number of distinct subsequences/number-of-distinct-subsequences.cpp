@@ -10,7 +10,7 @@ class Solution{
   public:	
 int distinctSubsequences(string s)
     {
-        
+        // Your code goes here
         const int M = 1e9+7;
         int n = s.length();
         vector<long long int> dp(s.length()+1);
@@ -26,6 +26,7 @@ int distinctSubsequences(string s)
         return dp[n]%M;
     }
 };
+
 
 //{ Driver Code Starts.
 
