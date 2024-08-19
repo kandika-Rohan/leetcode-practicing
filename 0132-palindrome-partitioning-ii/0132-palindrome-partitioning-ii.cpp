@@ -1,31 +1,34 @@
 class Solution {
 public:
-    bool isPalindrome(string &s,int i,int j){
-        while(i < j){
-            if(s[i] != s[j]){
-                return false;
-            }
+    // Helper function to check if the substring s[i..j] is a palindrome
+    bool isPalindrome(const string &s, int i, int j) {
+        while (i < j) {
+            if (s[i] != s[j]) return false;
             i++;
             j--;
         }
         return true;
     }
-    int dfs(int i,int j,string s,vector<int> &dp){
-        if(i >= j or isPalindrome(s,i,j)) return 0;
-        if(dp[i] != -1) return dp[i];
-        int ans = INT_MAX;
-        for(int k=i;k<j;k++){
-            if(isPalindrome(s,i,k)){
-                int count = 1+dfs(k+1,j,s,dp);
-                ans = min(ans,count);
-            }
-            
-        }
-        return dp[i] = ans;
-    }
+
+    // Function to find the minimum cuts needed for palindrome partitioning using tabulation
     int minCut(string s) {
         int n = s.size();
-        vector<int> dp(n+1,-1);
-        return dfs(0,n-1,s,dp);
+        vector<int> dp(n + 1, 0);  // dp[i] will store the minimum cuts needed for substring s[i..n-1]
+
+        // Initialize the dp array for the base case
+        for (int i = 0; i <= n; i++) {
+            dp[i] = n - 1 - i;  // maximum cuts needed
+        }
+
+        // Fill the dp array in bottom-up manner
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = i; j < n; j++) {
+                if (isPalindrome(s, i, j)) {
+                    dp[i] = min(dp[i], 1 + dp[j + 1]);
+                }
+            }
+        }
+
+        return dp[0];  // The answer for the entire string is stored in dp[0]
     }
 };
