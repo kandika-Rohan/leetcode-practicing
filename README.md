@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 | [0504-base-7](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0504-base-7) |
+| [0650-2-keys-keyboard](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0650-2-keys-keyboard) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
 ## Dynamic Programming
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0646-maximum-length-of-pair-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0646-maximum-length-of-pair-chain) |
+| [0650-2-keys-keyboard](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0650-2-keys-keyboard) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0803-cheapest-flights-within-k-stops) |
