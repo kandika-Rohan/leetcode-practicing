@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0774-maximum-depth-of-n-ary-tree) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0541-reverse-string-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0541-reverse-string-ii) |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0977-distinct-subsequences-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0977-distinct-subsequences-ii) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0774-maximum-depth-of-n-ary-tree) |
@@ -390,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0264-ugly-number-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0264-ugly-number-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
@@ -501,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0854-making-a-large-island) |
@@ -554,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0646-maximum-length-of-pair-chain) |
+| [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0948-sort-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0948-sort-an-array) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
