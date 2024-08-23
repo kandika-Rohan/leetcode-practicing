@@ -40,6 +40,7 @@ public:
         for(auto it:edges){
             int u=it[0];
             int v=it[1];
+            if(ds.findParent(u) == ds.findParent(v))continue;
             if(ds.findParent(u) != ds.findParent(v)){
                 ds.uniteBySize(u,v);
             }
