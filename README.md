@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
@@ -334,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
@@ -510,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0794-swim-in-rising-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0801-is-graph-bipartite) |
@@ -537,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0210-course-schedule-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0684-redundant-connection](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0803-cheapest-flights-within-k-stops) |
