@@ -131,25 +131,23 @@ struct Node
 vector<int> leftView(Node *root)
 {
    // Your code here
-   if(!root){
-       return {};
-   }
+   vector<int>ans;
    queue<Node*>q;
    q.push(root);
-   vector<int>ans;
    while(!q.empty()){
-       int size=q.size();
-       for(int i=0;i<size;i++){
-           auto node=q.front();
+       int n=q.size();
+       for(int i=0;i<n;i++){
+           auto it=q.front();
            q.pop();
            if(i==0){
-               ans.push_back(node->data);
+               ans.push_back(it->data);
            }
-           if(node->left){
-               q.push(node->left);
+           
+           if(it->left){
+               q.push(it->left);
            }
-           if(node->right){
-               q.push(node->right);
+           if(it->right){
+               q.push(it->right);
            }
        }
    }
