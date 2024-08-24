@@ -8,11 +8,12 @@ using namespace std;
 // User function Template for C++
 class Solution {
   public:
-     vector<int> shortestPath(int N,int M, vector<vector<int>>& edges){
+     vector<int> shortestPath(int n,int m, vector<vector<int>>& edges){
         // code here
-        vector<int>dist(N,1e9);
         
-        vector<pair<int,int>>adj[N];
+        vector<int>dist(n,1e9);
+        
+        vector<pair<int,int>>adj[n];
         
         for(auto it:edges){
             int u=it[0];
@@ -20,31 +21,31 @@ class Solution {
             int wt=it[2];
             adj[u].push_back({v,wt});
         }
-        dist[0]=0;
         
         priority_queue<pair<int,int>,vector<pair<int,int>>,
         greater<pair<int,int>>>q;
-        
         q.push({0,0});
+        dist[0]=0;
         
         while(!q.empty()){
             auto val=q.top();
             q.pop();
-            int node=val.second;
             int wt=val.first;
-            
-            for(auto it:adj[node]){
-                int adjnode=it.first;
+            int u=val.second;
+            for(auto it:adj[u]){
+                int v=it.first;
                 int weight=it.second;
-                if(weight+wt < dist[adjnode]){
-                    dist[adjnode]=weight+wt;
-                    q.push({weight+wt,adjnode});
+                if(weight+wt < dist[v]){
+                    dist[v]=weight+wt;
+                    q.push({wt+weight,v});
                 }
             }
         }
         
-        for(int i=0;i<N;i++){
-            if(dist[i] == 1e9)dist[i]=-1;
+        for(int i=0;i<n;i++){
+            if(dist[i] == 1e9){
+                dist[i]=-1;
+            }
         }
         return dist;
     }
