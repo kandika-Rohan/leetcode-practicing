@@ -29,12 +29,12 @@ public:
         info right = solve(root->right, maxisum);
 
         info currnode;
-        currnode.sum = left.sum + right.sum + root->val; // Corrected the sum calculation
+        currnode.sum = left.sum + right.sum + root->val;
         currnode.maxi = max(root->val, right.maxi);
         currnode.mini = min(root->val, left.mini);
 
         if (left.isbst && right.isbst && root->val > left.maxi &&
-            root->val < right.mini) { // Corrected variable names
+            root->val < right.mini) { 
             currnode.isbst = true;
         } else {
             currnode.isbst = false;
