@@ -28,38 +28,30 @@ int main() {
 
 // } Driver Code Ends
 
+vector<long long> printFirstNegativeInteger(long long int A[], long long int N, long long int k) {
+    vector<long long int> ans;
+    deque<long long int> q;
 
-vector<long long> printFirstNegativeInteger(long long int A[],
-                                             long long int N, long long int K) {
-    vector<long long>ans;
-    deque<long long >dq;
-    
-    int i=0;
-    int j=0;
-    while(j<N){
-        if(A[j]<0){
-            dq.push_back(A[j]);
+    for (int i = 0; i < N; i++) {
+        // Remove elements out of the current window
+        if (!q.empty() && q.front() == i - k) {
+            q.pop_front();
         }
-        
-        //case where our window has formed size k
-        if((j-i+1)==K){
-            
-            
-            if(!dq.empty()){
-                ans.push_back(dq.front());
-            }
-            else{
+
+        // Add current element if it is negative
+        if (A[i] < 0) {
+            q.push_back(i);
+        }
+
+        // Start adding results after the first k elements
+        if (i >= k - 1) {
+            if (!q.empty()) {
+                ans.push_back(A[q.front()]);
+            } else {
                 ans.push_back(0);
             }
-            
-            // shrinking the window 
-            if(A[i]<0 && !dq.empty()){
-                dq.pop_front();
-            }
-            i++;
         }
-        
-        j++;
     }
+
     return ans;
- }
+}
