@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
+| [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 | [0264-ugly-number-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0264-ugly-number-ii) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
@@ -714,5 +716,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 | [0989-largest-component-size-by-common-factor](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0989-largest-component-size-by-common-factor) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
