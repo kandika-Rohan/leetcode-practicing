@@ -7,39 +7,36 @@ using namespace std;
 class Solution {
   public:
     /*You are required to complete this method*/
-    bool f(int i,int j,string s,string p, vector<vector<int>>&dp){
-        if(i==0 && j== 0){
-            return true;
-        }
-        if(i>0 && j==0){
-            return false;
-        }
-        if(dp[i][j] != -1){
-            return dp[i][j];
-        }
-        if(i==0 && j>0){
+    bool f(int i,int j,string str,string pattern,vector<vector<int>>&dp){
+        if(i==0 && j==0)return true;
+        if(i != 0 && j==0)return false;
+        if(dp[i][j] != -1)return dp[i][j];
+        if(i == 0 && j != 0){
             for(int k=1;k<=j;k++){
-                if(p[k-1] != '*'){
+                if(pattern[k-1] !='*'){
                     return false;
                 }
             }
             return true;
         }
-        if(s[i-1] == p[j-1] || p[j-1] =='?'){
-            return dp[i][j]=f(i-1,j-1,s,p,dp);
+        
+        
+        if(str[i-1]  == pattern[j-1] || pattern[j-1] =='?' ){
+            return dp[i][j]=f(i-1,j-1,str,pattern,dp);
         }
-        else if(p[j-1] =='*'){
-            return dp[i][j]=f(i-1,j,s,p,dp)||f(i,j-1,s,p,dp);
+        else if(pattern[j-1] == '*'){
+            return dp[i][j]=f(i-1,j,str,pattern,dp) || f(i,j-1,str,pattern,dp);
         }
         else{
-            return false;
+            return dp[i][j]=false;
         }
     }
     int wildCard(string pattern, string str) {
-        int n=str.size();
-        int m=pattern.size();
-        vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return f(n, m, str, pattern,dp) ? 1 : 0;
+        // code here
+        int n=pattern.size();
+        int m=str.size();
+        vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
+        return f(m,n,str,pattern,dp);
     }
 };
 
