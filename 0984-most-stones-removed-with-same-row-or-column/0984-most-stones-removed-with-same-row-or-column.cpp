@@ -29,7 +29,7 @@ public:
         }
     }
     int getSize(int node) {
-        return size[node];
+        return size[findParent(node)];
     }
 };
 class Solution {
