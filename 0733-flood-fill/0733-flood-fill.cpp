@@ -1,38 +1,38 @@
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int c=image[sr][sc];
-        if(c == color){
-            return image;
-        }
+        
+        int startColor=image[sr][sc];
 
-        vector<vector<int>>vis=image;
-        int n=image.size();
-        int m=image[0].size();
+        //if out start color is equals the color 
+        //we need to fill then return image
+        if(startColor == color)return image;
 
         queue<pair<int,int>>q;
         q.push({sr,sc});
+        int n=image.size();
+        int m=image[0].size();
 
-        vis[sr][sc]=color;
-
+        vector<vector<int>>vis(n,vector<int>(m,0));
         int delrow[]={-1,0,1,0};
         int delcol[]={0,1,0,-1};
         while(!q.empty()){
-            auto node=q.front();
+            auto val=q.front();
             q.pop();
-            int row=node.first;
-            int col=node.second;
+            int row=val.first;
+            int col=val.second;
+            image[row][col]=color;
             for(int i=0;i<4;i++){
                 int nrow=row+delrow[i];
                 int ncol=col+delcol[i];
-                if(nrow >=0 && nrow < n && ncol >=0 && ncol < m &&
-                image[nrow][ncol]==c && vis[nrow][ncol] != color ){
-                    vis[nrow][ncol]=color;
+                if(nrow>=0 && nrow < n && ncol >=0 && ncol < m && !vis[nrow][ncol] &&
+                image[nrow][ncol]==startColor){
+                    vis[nrow][ncol]=1;
                     q.push({nrow,ncol});
                 }
             }
         }
-        return vis;
 
+        return image;
     }
 };
