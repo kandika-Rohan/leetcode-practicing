@@ -5,110 +5,120 @@ using namespace std;
 // } Driver Code Ends
 //User function Template for C++
 
-class DSU {
+class DisjointSet {
 private:
-    vector<int> parent, size;
-    
+    vector<int> parent, rank, size;
+
 public:
-    DSU(int n) {
+    DisjointSet(int n) {
         parent.resize(n + 1);
+        rank.resize(n + 1, 0);
         size.resize(n + 1, 1);
+
         for (int i = 0; i <= n; i++) {
             parent[i] = i;
         }
     }
-    
-    int find(int x) {
-        if (x == parent[x]) return x;
-        return parent[x] = find(parent[x]); // Path compression
+
+    int findParent(int x) {
+        if (parent[x] == x) return x;
+        return parent[x] = findParent(parent[x]);
     }
-    
-    void unite(int u, int v) {
-        int x = find(u);
-        int y = find(v);
-        if (x == y) return;
-        
-        if (size[x] < size[y]) {
-            size[y] += size[x];
-            parent[x] = y;
+
+    void uniteBySize(int u, int v) {
+        int rootU = findParent(u);
+        int rootV = findParent(v);
+        if (rootU == rootV) return;
+        if (size[rootU] < size[rootV]) {
+            size[rootV] += size[rootU];
+            parent[rootU] = rootV;
         } else {
-            size[x] += size[y];
-            parent[y] = x;
+            size[rootU] += size[rootV];
+            parent[rootV] = rootU;
         }
     }
-    
-    int sizeofcomponent(int x) {
-        return size[find(x)];
+
+    int getSize(int x) {
+        return size[findParent(x)];
     }
 };
 
-class Solution {
+class Solution
+{
+private:
+    bool isValid(int i,int j,int n){
+        if(i>=0 && i<n && j>=0 && j<n){
+            return true;
+        }
+        return false;
+    }
 public:
-    int largestIsland(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
-        DSU ds(n * m);
-        int delrow[4] = {-1, 0, 1, 0};
-        int delcol[4] = {0, 1, 0, -1};
-
-        // Union the components of 1s
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 0) continue;
-                for (int k = 0; k < 4; k++) {
-                    int nrow = i + delrow[k];
-                    int ncol = j + delcol[k];
-                    if (nrow >= 0 && ncol >= 0 && nrow < n && ncol < m 
-                    && grid[nrow][ncol] == 1) {
-                        int node = i * m + j;
-                        int adjnode = nrow * m + ncol;
-                        ds.unite(node, adjnode);
+    int largestIsland(vector<vector<int>>& grid) 
+    {
+        // Your code goes here.
+        
+        int delrow[]={-1,0,1,0};
+        int delcol[]={0,1,0,-1};
+        
+        //making the connected componentes;
+        int n=grid.size();
+        
+        
+        DisjointSet ds(n*n);
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j] == 0)continue;
+                
+                for(int k=0;k<4;k++){
+                    int nrow=i+delrow[k];
+                    int ncol=j+delcol[k];
+                    if(isValid(nrow,ncol,n) && grid[nrow][ncol] == 1){
+                        int node=i*n+j;
+                        int adjnode=nrow*n+ncol;
+                        
+                        ds.uniteBySize(node,adjnode);
                     }
                 }
             }
         }
-
-        // Now, find the largest possible island
-        int maxIsland = 0;
         
-        // First, consider the original islands without changing any 0 to 1
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 1) {
-                    maxIsland = max(maxIsland, ds.sizeofcomponent(i * m + j));
-                }
-            }
-        }
+        //know altering the 0 and checking weather it is making the larger
+        //island
         
-        // Consider changing each 0 to 1 and calculate the possible maximum island size
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (grid[i][j] == 1) continue;
+        int maxi=0;
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
                 
-                set<int> uniqueComponents;
-                for (int k = 0; k < 4; k++) {
-                    int nrow = i + delrow[k];
-                    int ncol = j + delcol[k];
-                    if (nrow >= 0 && ncol >= 0 && nrow < n && ncol < m 
-                    && grid[nrow][ncol] == 1) {
-                        uniqueComponents.insert(ds.find(nrow * m + ncol));
+                if(grid[i][j] == 1)continue;
+                
+                set<int>st;
+                
+                for(int k=0;k<4;k++){
+                    int nrow=i+delrow[k];
+                    int ncol=j+delcol[k];
+                    if(isValid(nrow,ncol,n) && grid[nrow][ncol] == 1){
+                        int adjnode=nrow*n+ncol;
+                        st.insert(ds.findParent(adjnode));
                     }
                 }
-                
-                int newSize = 1; 
-                for (auto comp : uniqueComponents) {
-                    newSize += ds.sizeofcomponent(comp);
+                int total=0;
+                for(auto it:st){
+                    total+=ds.getSize(it);
                 }
-                maxIsland = max(maxIsland, newSize);
+                maxi=max(maxi,total+1);
             }
         }
         
-        return maxIsland;
+        for(int i=0;i<n*n;i++){
+            maxi=max(maxi,ds.getSize(i));
+        }
+        
+        return maxi;
+        
     }
 };
-
-
-
 
 //{ Driver Code Starts.
 
