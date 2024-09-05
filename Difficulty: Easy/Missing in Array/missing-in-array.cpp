@@ -14,9 +14,11 @@ class Solution {
     int missingNumber(int n, vector<int>& arr) {
 
         // Your code goes here
-        int totalsum=accumulate(arr.begin(),arr.end(),0);
-        int sum=n*(n+1)/2;
-        return sum-totalsum;
+        long long total=accumulate(arr.begin(),arr.end(),0);
+        long long val=n*(n+1)/2;
+        int ans=total-val;
+        return abs(ans);
+        
     }
 };
 
