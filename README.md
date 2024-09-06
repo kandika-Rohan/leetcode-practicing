@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2727-number-of-senior-citizens) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Matrix
 |  |
 | ------- |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0147-insertion-sort-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -446,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Binary Search
 |  |
 | ------- |
