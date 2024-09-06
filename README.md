@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 | [0264-ugly-number-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0264-ugly-number-ii) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 | [0504-base-7](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0504-base-7) |
 | [0650-2-keys-keyboard](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0650-2-keys-keyboard) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
@@ -439,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0205-isomorphic-strings) |
 | [0264-ugly-number-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0264-ugly-number-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
@@ -514,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -755,4 +759,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
