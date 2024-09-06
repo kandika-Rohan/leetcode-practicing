@@ -13,41 +13,55 @@ class Solution {
     int shortestPath(vector<vector<int>> &grid, pair<int, int> source,
                      pair<int, int> destination) {
         // code here
+        
         int n=grid.size();
         int m=grid[0].size();
-        if(grid[source.first][source.second]==0 || grid[destination.first][destination.second]==0){
-            return -1;
-        }
         queue<pair<int,pair<int,int>>>q;
         
-        vector<vector<int>>dist(n,vector<int>(m,1e9));
+        int destrow=destination.first;
+        int destcol=destination.second;
         
-        dist[source.first][source.second]=0;
         
-        q.push({0,{source.first,source.second}});
         
-        int delrow[4]={-1,0,1,0};
-        int delcol[4]={0,1,0,-1};
+        vector<vector<int>>vis(n,vector<int>(m,0));
+        
+        int srcrow=source.first;
+        int srccol=source.second;
+        
+        
+        q.push({0,{srcrow,srccol}});
+        vis[srcrow][srccol]=1;
+        
+        int delrow[]={-1,0,1,0};
+        int delcol[]={0,1,0,-1};
+        
         while(!q.empty()){
             
-            int distance=q.front().first;
-            int row=q.front().second.first;
-            int col=q.front().second.second;
+            auto it=q.front();
+            
             q.pop();
-            if(row==destination.first && col==destination.second){
-                return distance;
+            
+            int steps=it.first;
+            
+            int row=it.second.first;
+            
+            int col=it.second.second;
+            
+            // cout<<row<<" "<<col<<endl;
+            if(row == destrow && col == destcol){
+                return steps;
             }
             for(int i=0;i<4;i++){
                 int nrow=row+delrow[i];
                 int ncol=col+delcol[i];
-                if(nrow >=0 && ncol >=0 && nrow < n && ncol < m && 
-                grid[nrow][ncol]==1 && distance+1<dist[nrow][ncol]){
-                    dist[nrow][ncol]=distance+1;
-                    q.push({distance+1,{nrow,ncol}});
+                if(nrow>=0 && nrow<n &&
+                ncol>=0 && ncol < m && !vis[nrow][ncol] 
+                && grid[nrow][ncol]==1){
+                    vis[nrow][ncol]=1;
+                    q.push({steps+1,{nrow,ncol}});
                 }
             }
         }
-        
         return -1;
     }
 };
