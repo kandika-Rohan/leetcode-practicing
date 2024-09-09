@@ -14,17 +14,18 @@ class Solution{
     bool subArrayExists(int arr[], int n)
     {
         //Your code here
+        
         unordered_map<int,int>map;
-        int sum=0;
         int count=0;
-        map[count]++;
+        map[count]=1;
+        int sum=0;
         for(int i=0;i<n;i++){
             sum+=arr[i];
             count+=map[sum-0];
+            if(count >=1)return true;
             map[sum]++;
-            
         }
-        return count >= 1 ?true:false;
+        return false;
     }
 };
 
