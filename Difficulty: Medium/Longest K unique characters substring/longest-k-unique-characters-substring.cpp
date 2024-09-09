@@ -10,34 +10,32 @@ using namespace std;
 class Solution{
   public:
     int longestKSubstr(string s, int k) {
-    // your code here
-    
-    int dist=0;
-    int maxi=-1;
-    
-    unordered_map<char,int>map;
-    int i=0;
-    for(int j=0;j<s.length();j++){
-        map[s[j]]++;
-        if(map[s[j]] == 1){
-            dist++;
-        }
-        if(dist > k){
-            map[s[i]]--;
-            if(map[s[i]] == 0){
-                dist--;
+        
+        int len=-1;
+        int i=0;
+        int dist=0;
+        vector<int>hash(26,0);
+        
+        for(int j=0;j<s.size();j++){
+            
+            hash[s[j] - 'a']++;
+            if(hash[s[j] - 'a'] == 1){
+                dist++;
             }
-            i++;
+            
+            while(dist > k && i<=j){
+                hash[s[i]-'a']--;
+                if(hash[s[i]-'a'] == 0){
+                    dist--;
+                }
+                i++;
+            }
+            
+            if (dist == k) {
+            len = max(len, j - i + 1); 
         }
-      
-      if(dist == k){
-          maxi=max(maxi,j-i+1);
-      }
-
-    }
-    // cout<<s.substr(start,end)<<endl;
-    
-    return maxi;
+        }
+        return len;
     }
 };
 
