@@ -1,48 +1,42 @@
 class Solution {
-public:
+public: 
+    bool dfs(int node,vector<int>&vis,vector<int>&pathvis,vector<int>adj[],vector<int>&ans){
+        vis[node]=1;
+        pathvis[node]=1;
+        for(auto it:adj[node]){
+            if(!vis[it]){
+                if(dfs(it,vis,pathvis,adj,ans)==true){
+                    return true;
+                }
+            }
+            else if(pathvis[it] ==1){
+                return true;
+            }
+        }
+        pathvis[node]=0;
+        ans.push_back(node);
+        return false;
+    }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> adj(numCourses);
-        for (auto it : prerequisites) {
-            adj[it[0]].push_back(it[1]);
-        }
         
-        // Initialize indegree vector
-        vector<int> indegree(numCourses, 0);
-        for (int i = 0; i < numCourses; i++) {
-            for (auto it : adj[i]) {
-                indegree[it]++;
-            }
+        vector<int>adj[numCourses];
+        for(auto it:prerequisites){
+            int u=it[0];
+            int v=it[1];
+            adj[v].push_back(u);
         }
-        
-        // Create a queue and enqueue all nodes with indegree 0
-        queue<int> q;
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
-                q.push(i);
-            }
-        }
-        
-        // Initialize count of visited nodes
-       vector<int>topo;
-        while (!q.empty()) {
-            int node = q.front();
-            q.pop();
-            topo.push_back(node);
-            // Decrease the indegree of neighboring nodes by 1
-            for (auto it : adj[node]) {
-                indegree[it]--;
-                // If indegree becomes 0, add it to the queue
-                if (indegree[it] == 0) {
-                    q.push(it);
+
+        vector<int>vis(numCourses,0),pathvis(numCourses,0);
+
+        vector<int>ans;
+        for(int i=0;i<numCourses;i++){
+            if(!vis[i]){
+                if(dfs(i,vis,pathvis,adj,ans) == true){
+                    return {};
                 }
             }
         }
-        
-        // If count of visited nodes is equal to the number of courses, return true
-        if(topo.size()==numCourses){
-            reverse(topo.begin(),topo.end());
-            return topo;
-        }
-        return {};
+        reverse(ans.begin(),ans.end());
+        return ans;
     }
 };
