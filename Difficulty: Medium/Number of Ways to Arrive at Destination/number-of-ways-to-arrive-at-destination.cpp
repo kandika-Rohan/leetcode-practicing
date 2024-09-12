@@ -5,10 +5,7 @@ using namespace std;
 // } Driver Code Ends
 // User function Template for C++
 
-#include <vector>
-#include <queue>
-#include <utility>
-using namespace std;
+
 
 class Solution {
 public:
@@ -46,6 +43,7 @@ public:
         return ways[n-1]%mod;
     }
 };
+
 
 
 
