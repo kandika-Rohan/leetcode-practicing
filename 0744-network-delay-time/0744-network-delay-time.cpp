@@ -1,6 +1,10 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+
+
+        vector<int>dist(n+1,1e9);
+
         vector<pair<int,int>>adj[n+1];
 
         for(auto it:times){
@@ -9,14 +13,13 @@ public:
             int wt=it[2];
             adj[u].push_back({v,wt});
         }
-
-        priority_queue<pair<int,int>,vector<pair<int,int>>,
-        greater<pair<int,int>>>q;
-
-        vector<int>dist(n+1,1e9);
+        using p=pair<int,int>;
+        priority_queue<p,vector<p>,greater<p>>q;
 
         q.push({0,k});
+
         dist[k]=0;
+        dist[0]=0;
 
         while(!q.empty()){
             auto val=q.top();
@@ -25,21 +28,20 @@ public:
             int node=val.second;
 
             for(auto it:adj[node]){
+                int t=it.second;
                 int adjnode=it.first;
-                int cost=it.second;
-                if(cost+time < dist[adjnode]){
-                    dist[adjnode]=cost+time;
-                    q.push({cost+time,adjnode});
+                if(dist[adjnode]>t+time){
+                    dist[adjnode]=t+time;
+                    q.push({t+time,adjnode});
                 }
             }
         }
-
-       int maxTime = 0;
-        for (int i = 1; i <= n; ++i) {
-            if (dist[i] == 1e9) return -1; 
-            maxTime = max(maxTime, dist[i]);
+        int maxi=0;
+        for(auto it:dist){
+            if(it == 1e9)return -1;
+            maxi=max(maxi,it);
+            cout<<it<<" ";
         }
-        return maxTime;
-
+        return maxi;
     }
 };
