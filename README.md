@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1435-xor-queries-of-a-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0222-count-complete-tree-nodes) |
+| [1435-xor-queries-of-a-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1435-xor-queries-of-a-subarray) |
 | [2308-divide-array-into-equal-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## String
@@ -786,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1435-xor-queries-of-a-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1435-xor-queries-of-a-subarray) |
 ## Game Theory
 |  |
 | ------- |
