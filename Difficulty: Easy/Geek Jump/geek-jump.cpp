@@ -6,29 +6,27 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    int f(int ind,vector<int>&height){
-        if(ind == 0){
-            return 0;
+    int f(int i,int n,vector<int>&heights,vector<int>&dp){
+        if(i == 0)
+        return 0;
+        
+        if(dp[i] != -1)return dp[i];
+        int nottake=1e9;
+        if(i>0){
+        nottake=f(i-1,n,heights,dp)+abs(heights[i]-heights[i-1]);
         }
-        int onejump=f(ind-1,height)+abs(height[ind]-height[ind-1]);
-        int twojump=1e9;
-        if(ind > 1){
-            twojump=f(ind-2,height)+abs(height[ind]-height[ind-2]);
+        
+        int take=1e9;
+        if(i>1){
+            take=f(i-2,n,heights,dp)+abs(heights[i]-heights[i-2]);
         }
-        return min(onejump,twojump);
+        
+        return dp[i]=min(take,nottake);
     }
     int minimumEnergy(vector<int>& height, int n) {
         // Code here
-        vector<int>dp(n,0);
-        for(int i=1;i<n;i++){
-            int take=dp[i-1]+abs(height[i-1]-height[i]);
-            int nottake=1e9;
-            if(i>1){
-              nottake=dp[i-2]+abs(height[i-2]-height[i]);
-            }
-            dp[i]=min(take,nottake);
-        }
-        return dp[n-1];
+        vector<int>dp(n+1,-1);
+        return f(n-1,n,height,dp);
     }
 };
 
