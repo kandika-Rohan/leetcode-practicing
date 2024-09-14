@@ -6,45 +6,50 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-   int f(int i,int k,vector<int>&height, vector<int>&dp){
-       if(i==0){
-           return 0;
-       }
-       if(dp[i] != -1){
-           return dp[i];
-       }
-       int minsteps=INT_MAX;
-       for(int j=1;j<=k;j++){
-           if(i-j>=0){
-               int take=f(i-j,k,height,dp)+abs(height[i]-height[i-j]);
-               minsteps=min(minsteps,take);
-           }
-       }
-       return dp[i]=minsteps;
-   }
-    int minimizeCost(vector<int>& height, int n, int k) {
+    int f(int i,int k,vector<int>&arr,vector<int>&dp){
+        if(i == 0)return 0;
+        if(dp[i] != -1)return dp[i];
+        int mini=INT_MAX;
+        for(int j=1;j<=k;j++){
+            
+            if(i-j>=0){
+                mini=min(mini,f(i-j,k,arr,dp)+abs(arr[i]-arr[i-j]));
+            }
+        }
+        return dp[i]=mini;
+    }
+    int minimizeCost(vector<int>& arr, int& k) {
         // Code here
-        vector<int>dp(n+1,-1);
-       return f(n-1,k,height,dp);
+        vector<int>dp(arr.size()+1,-1);
+        return f(arr.size()-1,k,arr,dp);
     }
 };
-
 
 //{ Driver Code Starts.
 
 int main() {
-    int t;
-    cin >> t;
+    string ts;
+    getline(cin, ts);
+    int t = stoi(ts);
     while (t--) {
-        int N, K;
-        cin >> N >> K;
-        vector<int> arr(N);
-        for (int i = 0; i < N; i++) {
-            cin >> arr[i];
+        string ks;
+        getline(cin, ks);
+        int k = stoi(ks);
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
         }
         Solution obj;
-        cout << obj.minimizeCost(arr, N, K) << "\n";
+        int res = obj.minimizeCost(arr, k);
+        cout << res << endl;
+        // string tl;
+        // getline(cin, tl);
     }
     return 0;
 }
+
 // } Driver Code Ends
