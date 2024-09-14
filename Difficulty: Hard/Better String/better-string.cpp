@@ -11,15 +11,19 @@ using namespace std;
 class Solution {
   public:
     int f(string s){
-        int n=s.length();
-        vector<int>dp(n+1,0);
-        dp[0]=1;//this is for the empty string;
+        
         unordered_map<char,int>map;
+        
+        int n=s.size();
+        vector<int>dp(n+1,0);
+        dp[0]=1;
         for(int i=0;i<n;i++){
-            dp[i+1]=dp[i]*2;
+            
             char ch=s[i];
+            
+            dp[i+1]=dp[i]*2;//each chareacter has the twp possibilities
+            
             if(map.find(ch) != map.end()){
-                //iska matlab h this is the repeating character
                 int j=map[ch];
                 dp[i+1]=dp[i+1]-dp[j];
             }
@@ -31,16 +35,13 @@ class Solution {
         // code here
         int s1=f(str1);
         int s2=f(str2);
-        if(s1 == s2){
+        if(s1 > s2){
             return str1;
         }
-        else if(s1>s2){
-            return str1;
-        }
-        else{
+        else if(s1< s2){
             return str2;
         }
-        
+        return str1;
     }
 };
 
