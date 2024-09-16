@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 | [0504-base-7](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0504-base-7) |
+| [0539-minimum-time-difference](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0539-minimum-time-difference) |
 | [0650-2-keys-keyboard](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0650-2-keys-keyboard) |
 | [0989-largest-component-size-by-common-factor](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0989-largest-component-size-by-common-factor) |
 | [2507-number-of-common-factors](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2507-number-of-common-factors) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0518-coin-change-ii) |
+| [0539-minimum-time-difference](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0560-subarray-sum-equals-k) |
 | [0624-maximum-distance-in-arrays](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0624-maximum-distance-in-arrays) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
+| [0539-minimum-time-difference](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0539-minimum-time-difference) |
 | [0541-reverse-string-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0541-reverse-string-ii) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0977-distinct-subsequences-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0977-distinct-subsequences-ii) |
@@ -698,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0455-assign-cookies) |
+| [0539-minimum-time-difference](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
