@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0072-edit-distance) |
@@ -567,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0208-implement-trie-prefix-tree) |
