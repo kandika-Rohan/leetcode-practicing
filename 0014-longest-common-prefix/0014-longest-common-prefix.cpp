@@ -64,7 +64,6 @@ public:
         for(auto it : strs){
             t.insert(it);
         }
-        // sort(strs.begin(), strs.end());
         string s = strs[0]; 
         string ans = t.lps(s, n);
         return ans;
