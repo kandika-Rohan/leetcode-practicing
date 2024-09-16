@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0147-insertion-sort-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1484-linked-list-in-binary-tree) |
@@ -553,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0085-maximal-rectangle) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
@@ -610,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0088-merge-sorted-array) |
+| [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
 | [0189-rotate-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
@@ -797,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
+| [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 ## Ordered Set
 |  |
