@@ -9,9 +9,12 @@ using namespace std;
 
 class Solution{
 public:
-    unorde
+    unordered_map<string,vector<string>>dp;
     vector<string> wordBreak(int n, vector<string>& dict, string s)
     {
+        if(dp.find(s) != dp.end()){
+            return dp[s];
+        }
         vector<string>res;
         for(auto it:dict){
             if(it == s.substr(0,it.length())){
@@ -28,7 +31,7 @@ public:
                 }
             }
         }
-        return res;
+        return dp[s]=res;
     }
 };
 
