@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
+| [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0085-maximal-rectangle) |
+| [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
 | [0131-palindrome-partitioning](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
+| [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0813-all-paths-from-source-to-target) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
@@ -578,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Memoization
 |  |
