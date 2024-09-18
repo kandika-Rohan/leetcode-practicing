@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2308-divide-array-into-equal-pairs) |
 | [2386-min-max-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2386-min-max-game) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2727-number-of-senior-citizens) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -576,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0208-implement-trie-prefix-tree) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Memoization
 |  |
 | ------- |
@@ -798,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2308-divide-array-into-equal-pairs) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Binary Indexed Tree
 |  |
