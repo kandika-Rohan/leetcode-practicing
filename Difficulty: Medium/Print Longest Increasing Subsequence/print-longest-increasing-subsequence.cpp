@@ -4,50 +4,44 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
-   #include <vector>
-#include <algorithm>
-
-std::vector<int> longestIncreasingSubsequence(int n, std::vector<int>& arr) {
-    // Initialize the dp array to store the length of LIS ending at each index
-    std::vector<int> dp(n, 1);
-    // Initialize the hash array to store the previous index in the LIS
-    std::vector<int> hash(n, -1);
-
-    // Calculate the length of LIS for each element
-    for (int i = 1; i < n; i++) {
-        for (int prev_ind = 0; prev_ind < i; prev_ind++) {
-            if (arr[prev_ind] < arr[i] && dp[prev_ind] + 1 > dp[i]) {
-                dp[i] = dp[prev_ind] + 1;
-                hash[i] = prev_ind;
+    vector<int> longestIncreasingSubsequence(int n, vector<int>& arr) {
+        // Code here
+        
+        vector<int>dp(n,1);
+        vector<int>hash(n);
+        int maxi=0;
+        int ind=-1;
+        for(int i=0;i<n;i++){
+            hash[i]=i;
+            for(int j=0;j<i;j++){
+                
+                if(arr[i]>arr[j] && dp[j]+1>dp[i]){
+                    dp[i]=dp[j]+1;
+                    hash[i]=j;
+                }
+            }
+            if(maxi<dp[i]){
+                maxi=dp[i];
+                ind=i;
             }
         }
-    }
-
-    // Find the index of the maximum length LIS
-    int largest = -1;
-    int lastind = -1;
-    for (int i = 0; i < n; i++) {
-        if (dp[i] > largest) {
-            largest = dp[i];
-            lastind = i;
+        
+        vector<int>ans;
+        ans.push_back(arr[ind]);
+        
+        while(ind != hash[ind]){
+        ind=hash[ind];
+        ans.push_back(arr[ind]);
         }
+        reverse(ans.begin(),ans.end());
+        return ans;
+        
     }
-
-    // Reconstruct the LIS
-    std::vector<int> lis;
-    while (lastind != -1) {
-        lis.push_back(arr[lastind]);
-        lastind = hash[lastind];
-    }
-    // Reverse the sequence to get the correct order
-    std::reverse(lis.begin(), lis.end());
-
-    return lis;
-}
-
 };
+
 
 //{ Driver Code Starts.
 
