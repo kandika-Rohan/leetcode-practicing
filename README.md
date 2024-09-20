@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0147-insertion-sort-list) |
+| [0328-odd-even-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0328-odd-even-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
