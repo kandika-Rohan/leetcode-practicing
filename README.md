@@ -346,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
+| [0214-shortest-palindrome](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0214-shortest-palindrome) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
@@ -883,13 +884,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1508-longest-happy-prefix) |
 ## String Matching
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
