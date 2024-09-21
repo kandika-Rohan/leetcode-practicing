@@ -110,32 +110,21 @@ struct Node
 class Solution {
   public:
     // Function to convert a binary tree into its mirror tree.
-    void traversal(Node*node,vector<int>&ds){
-        if(!node)return;
-        traversal(node->left,ds);
-        ds.push_back(node->data);
-        traversal(node->right,ds);
-    }
-    Node*construct(vector<int>&ds,int low,int high){
+    Node* solve(Node*node){
+        if(!node){
+            return nullptr;
+        }
+        Node*left=solve(node->left);
+        Node*right=solve(node->right);
         
-        if(low>high)
-        return nullptr;
+       node->left=right;
+       node->right=left;
         
-        int mid=(low+high)/2;
-        Node*root=new Node(ds[mid]);
-         root->left = construct(ds, mid + 1, high);
-        root->right = construct(ds, low, mid - 1);
-        
-        return root;
+        return node;
     }
     void mirror(Node* node) {
         // code here
-        vector<int>ds;
-        traversal(node,ds);
-        // reverse(ds.begin(),ds.end());?
-        int n=ds.size();
-        Node*mirroredTree=construct(ds,0,n-1);
-        *node = *mirroredTree;
+        solve(node);
     }
 };
 
