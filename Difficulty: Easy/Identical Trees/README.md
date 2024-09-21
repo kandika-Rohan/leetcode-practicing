@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1?page=5&sortBy=submissions">Identical Trees</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given two binary trees, the task is to find if both of them are identical or not.<br><strong>Note:</strong> You need to return true or false, the printing is done by the driver code.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1?page=1&category=Tree&sortBy=submissions">Identical Trees</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given two binary trees, the task is to find if both of them are identical or not.<br><strong>Note:</strong> You need to return true or false, the printing is done by the driver code.</span></p>
 <p><span style="font-size: 14pt;"><strong>Example 1:</strong></span></p>
 <pre><span style="font-size: 14pt;"><strong>Input:
 </strong>     1          1
