@@ -9,24 +9,24 @@ class Solution {
   public:
     vector<int> findTwoElement(vector<int>& arr) {
         // code here
-        int n=arr.size();
-          int k=1;
-        sort(arr.begin(),arr.end());
         
-        for(int i=0;i<n;i++){
-            
-            if(k==arr[i]){
-                k++;
+        vector<int>hash(arr.size()+1,0);
+        
+        for(int i=0;i<arr.size();i++){
+            hash[arr[i]]++;
+        }
+        int mis=-1;
+        int rep=-1;
+        for(int i=1;i<=arr.size();i++){
+            if(hash[i]==0){
+                mis=i;
+            }
+            if(hash[i] == 2){
+                rep=i;
             }
         }
-        int ans=-1;
-        for(int i=1;i<n;i++){
-            if(arr[i]==arr[i-1]){
-                ans=arr[i];
-                break;
-            }
-        }
-        return {ans,k};
+        
+        return {rep,mis};
     }
 };
 
