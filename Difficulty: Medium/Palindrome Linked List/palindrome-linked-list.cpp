@@ -45,6 +45,7 @@ class Solution {
     }
     bool isPalindrome(Node *head) {
         // Your code here
+        
         vector<int>ds;
         solve(head,ds);
         if(ds.empty())return true;
