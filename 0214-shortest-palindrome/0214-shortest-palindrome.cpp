@@ -1,24 +1,18 @@
 class Solution {
 public:
     string shortestPalindrome(string s) {
-        if(s.length()<=1)
-            return s;
         
-        int l = 0, r = s.size()-1;
 
-        while(r>=0){
-            if(s[l]==s[r])
-                l++;
-            r--;
+        string rev=s;
+        reverse(rev.begin(),rev.end());
+        int n=s.size();
+        for(int i=0;i<s.size();i++){
+
+            if(!memcmp(s.c_str(),rev.c_str()+i,n-i)){
+                return rev.substr(0,i)+s;
+            }
         }
-        
-        if(l==s.size())
-            return s;
 
-        string rem (s.begin()+l,s.end());
-        reverse(rem.begin(),rem.end());
-        string out = rem + shortestPalindrome(s.substr(0,l)) + s.substr(l,s.size());
-
-        return out;
+        return rev+s;
     }
 };
