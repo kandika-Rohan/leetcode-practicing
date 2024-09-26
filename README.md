@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0009-palindrome-number) |
+| [0043-multiply-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0043-multiply-strings) |
 | [0062-unique-paths](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0096-unique-binary-search-trees) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0032-longest-valid-parentheses](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0032-longest-valid-parentheses) |
+| [0043-multiply-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0091-decode-ways) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0043-multiply-strings) |
 | [0059-spiral-matrix-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
