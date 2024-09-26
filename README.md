@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0720-longest-word-in-dictionary](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0720-longest-word-in-dictionary) |
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
+| [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
@@ -561,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
+| [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0907-koko-eating-bananas) |
@@ -624,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
+| [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -846,6 +849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 ## Recursion
 |  |
 | ------- |
@@ -857,6 +861,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
+| [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 ## Prefix Sum
 |  |
 | ------- |
