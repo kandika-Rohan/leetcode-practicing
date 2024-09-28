@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0854-making-a-large-island) |
+| [0859-design-circular-deque](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0943-sum-of-subarray-minimums) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0147-insertion-sort-list) |
 | [0328-odd-even-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0328-odd-even-linked-list) |
+| [0859-design-circular-deque](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0859-design-circular-deque](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0859-design-circular-deque) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -803,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
+| [0859-design-circular-deque](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0859-design-circular-deque) |
 ## Sliding Window
 |  |
 | ------- |
