@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
+| [0054-spiral-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0057-insert-interval) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0064-minimum-path-sum) |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0043-multiply-strings) |
+| [0054-spiral-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0059-spiral-matrix-ii) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
