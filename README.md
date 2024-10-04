@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0221-maximal-square) |
+| [0228-summary-ranges](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0228-summary-ranges) |
 | [0239-sliding-window-maximum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
