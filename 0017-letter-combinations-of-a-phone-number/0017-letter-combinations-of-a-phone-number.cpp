@@ -1,28 +1,30 @@
 class Solution {
 public:
-    void solve(int i,string digits,string map[],vector<string>&ans,string temp){
-        if( i >= digits.size() ){
-            if(!temp.empty()){
-                ans.push_back(temp);
-            }
-            return;
+    void solve(int index,string digits,string m,vector<string>&ans,string mapping [])
+    {
+        if(index>=digits.size())
+        {
+            ans.push_back(m);
+            return ;
         }
-
-        int val=digits[i]-'0';
-        string s=map[val];
-
-        for(int j=0;j<s.size();j++){
-            temp.push_back(s[j]);
-            solve(i+1,digits,map,ans,temp);
-            temp.pop_back();
+        int number=digits[index]-'0';
+        string value=mapping[number];
+        for(int i=0;i<value.size();i++)
+        {
+            m.push_back(value[i]);
+            solve(index+1,digits,m,ans,mapping);
+            m.pop_back();
         }
     }
     vector<string> letterCombinations(string digits) {
-        
-        string map[]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-
         vector<string>ans;
-        solve(0,digits,map,ans,"");
+        if(digits.size()<=0)
+        {
+            return ans;
+        }
+        string mapping[10]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        solve(0,digits,"",ans,mapping);
         return ans;
     }
+
 };
