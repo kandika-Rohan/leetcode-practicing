@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2755-extra-characters-in-a-string) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2755-extra-characters-in-a-string) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -756,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-min-cost-to-connect-all-points](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1706-min-cost-to-connect-all-points) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2121-find-if-path-exists-in-graph) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Shortest Path
 |  |
 | ------- |
@@ -765,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Sorting
 |  |
 | ------- |
