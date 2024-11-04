@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0204-count-primes) |
 | [0264-ugly-number-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0264-ugly-number-ii) |
+| [0365-water-and-jug-problem](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0365-water-and-jug-problem](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0365-water-and-jug-problem) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0547-number-of-provinces) |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0365-water-and-jug-problem](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0365-water-and-jug-problem) |
 | [0386-lexicographical-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0386-lexicographical-numbers) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0501-find-mode-in-binary-search-tree) |
