@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0854-making-a-large-island) |
@@ -595,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
 | [0729-my-calendar-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0729-my-calendar-i) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0907-koko-eating-bananas) |
