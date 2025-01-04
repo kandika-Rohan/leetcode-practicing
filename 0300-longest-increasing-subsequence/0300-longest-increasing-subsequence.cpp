@@ -4,19 +4,19 @@ public:
         
 
         vector<int>temp;
-        int n=nums.size();
-
+        
         temp.push_back(nums[0]);
 
-        for(int i=1;i<n;i++){
-            int curr=nums[i];
-            if(curr>temp.back()){
-                temp.push_back(curr);
+        for(int i=1;i<nums.size();i++){
+            
+            if(temp.back()<nums[i]){
+                temp.push_back(nums[i]);
             }
             else{
-                int position=lower_bound(temp.begin(),temp.end(),curr)-temp.begin();
-                temp[position]=nums[i];
+                int ind=lower_bound(temp.begin(),temp.end(),nums[i])-temp.begin();
+                temp[ind]=nums[i];
             }
+
         }
         return temp.size();
     }
