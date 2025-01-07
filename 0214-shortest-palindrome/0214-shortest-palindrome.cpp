@@ -1,40 +1,24 @@
 class Solution {
 public:
-    int lps(string s){
-        int n=s.size();
-        vector<int>ans(n,0);
-
-        int i=1;
-        int len=0;
-
-        while(i<n){
-            if(s[i] == s[len])
-            {
-                len++;
-                ans[i]=len;
-                i++;
-            }
-            else{
-                if(len != 0){
-                    len=ans[len-1];
-                }
-                else{
-                    ans[i]=0;
-                    i++;
-                }
-            }
-        }
-
-        return ans.back();
-    }
     string shortestPalindrome(string s) {
-        string rev=s;
-        reverse(begin(rev),end(rev));
-
-        string str=s+"#"+rev;
+        if(s.length()<=1)
+            return s;
         
-        int n=lps(str);
+        int l = 0, r = s.size()-1;
 
-        return rev.substr(0, s.size() - n) + s;
+        while(r>=0){
+            if(s[l]==s[r])
+                l++;
+            r--;
+        }
+        
+        if(l==s.size())
+            return s;
+
+        string rem (s.begin()+l,s.end());
+        reverse(rem.begin(),rem.end());
+        string out = rem + shortestPalindrome(s.substr(0,l)) + s.substr(l,s.size());
+
+        return out;
     }
 };
