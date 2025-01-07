@@ -11,24 +11,26 @@ class Solution
     long long sumSubstrings(string s){
         
         // your code here
-        const int mod=1e9+7;
-        long long total=0;
         
-        long long curr=0;
+        int mod=1e9+7;
         
-        for(int i=0;i<s.size();i++){
+        int n=s.size();
+        
+        
+        vector<long long>dp(n,0);
+        
+        dp[0]=s[0]-'0';
+        
+        long long ans=dp[0];
+        
+        for(int i=1;i<n;i++){
             
-            int digit=s[i]-'0';
+            dp[i]=(dp[i-1]*10)%mod+((s[i]-'0')*(i+1))%mod;
             
-            curr=(curr*10)%mod+(digit*(i+1))%mod;
-            
-            total=(total+curr)%mod;
+            ans=(ans+dp[i])%mod;
         }
         
-        
-        return total%mod;
-        
-        
+        return ans%mod;
     }
 };
 
@@ -47,7 +49,9 @@ int main()
         //calling sumSubstrings() function
         cout << ob.sumSubstrings(s) << endl;
         
-    }
+    
+cout << "~" << "\n";
+}
     return 0;
 }
 
