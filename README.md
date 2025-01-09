@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2308-divide-array-into-equal-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2308-divide-array-into-equal-pairs) |
 | [2386-min-max-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2386-min-max-game) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
@@ -395,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2727-number-of-senior-citizens) |
@@ -965,6 +967,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0214-shortest-palindrome](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1508-longest-happy-prefix) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
