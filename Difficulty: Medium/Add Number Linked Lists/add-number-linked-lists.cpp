@@ -163,6 +163,7 @@ class Solution {
 };
 
 
+
 //{ Driver Code Starts.
 
 int main() {
@@ -176,6 +177,7 @@ int main() {
         Solution ob;
         Node* res = ob.addTwoLists(num1, num2);
         printList(res);
+        cout << "~" << endl;
     }
     return 0;
 }
