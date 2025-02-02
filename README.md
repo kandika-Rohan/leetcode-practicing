@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0045-jump-game-ii) |
+| [0051-n-queens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0056-merge-intervals) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0039-combination-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0078-subsets) |
 | [0131-palindrome-partitioning](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0131-palindrome-partitioning) |
