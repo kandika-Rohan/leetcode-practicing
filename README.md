@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -571,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
 | [0146-lru-cache](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0146-lru-cache) |
@@ -736,6 +738,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0128-longest-consecutive-sequence) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0684-redundant-connection) |
