@@ -1,29 +1,83 @@
+class TRIE{
+    struct trie{
+        trie*children[26];
+        bool isend;
+
+        trie(){
+            isend=false;
+            fill(begin(children),end(children),nullptr);
+        }
+    };
+
+    public:
+    trie*root;
+
+    TRIE(){
+
+        root=new trie();
+    }
+
+    void insert(string word){
+
+        trie*node=root;
+
+        for(auto it:word){
+            int ind=it-'a';
+            if(node->children[ind] == nullptr){
+                node->children[ind]=new trie();
+            }
+            node=node->children[ind];
+        }
+        node->isend=true;
+    }
+
+    bool search(int start,int end,string word){
+
+        trie*node=root;
+        
+        for(int i=start;i<=end;i++){
+            
+            int ind=word[i]-'a';
+
+            if(!node->children[ind]){
+
+                return false;
+            }
+
+            node=node->children[ind];
+        }
+        return node->isend;
+    }
+};
 class Solution {
 public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        
+        TRIE t;
 
-    int helper(int i,string s,unordered_set<string>&st,vector<int>&dp){
-        if(i==s.size()){
-            return dp[i]=1;
+        for(auto it:wordDict){
+            t.insert(it);
         }
-        if(dp[i] != -1){  return dp[i];}
-          
-        string temp;
-        for(int j=i;j<s.size();j++){
-            temp+=s[j];
-            if(st.find(temp) != st.end()){
-                if(helper(j+1,s,st,dp)){
-                    return dp[i]=1;
+
+        int n=s.size();
+
+        vector<bool>dp(n+1,0);
+
+        dp[0]=true;
+
+        for(int i=1;i<=n;i++){
+
+            for(int j=0;j<i;j++){
+
+                if(dp[j] && t.search(j,i-1,s)){
+
+                    dp[i]=true;
+
+                    break;
                 }
             }
         }
-        return dp[i]=0;
-    }
-    bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string>st;
-        for(auto it:wordDict){
-            st.insert(it);
-        }
-        vector<int>dp(s.size()+1,-1);
-        return helper(0,s,st,dp);
+
+        return dp[n];
     }
 };
