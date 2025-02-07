@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Matrix
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
 | [2386-min-max-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2386-min-max-game) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Tree
 |  |
 | ------- |
@@ -607,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Binary Search
