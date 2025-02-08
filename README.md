@@ -412,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
 | [1508-longest-happy-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1508-longest-happy-prefix) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1720-crawler-log-folder](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1720-crawler-log-folder) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1894-merge-strings-alternately](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1894-merge-strings-alternately) |
@@ -893,6 +894,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0424-longest-repeating-character-replacement) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0643-maximum-average-subarray-i) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Monotonic Queue
 |  |
 | ------- |
