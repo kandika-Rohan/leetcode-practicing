@@ -387,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0140-word-break-ii) |
+| [0151-reverse-words-in-a-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0208-implement-trie-prefix-tree) |
@@ -732,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0088-merge-sorted-array) |
 | [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
+| [0151-reverse-words-in-a-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0295-find-median-from-data-stream) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0345-reverse-vowels-of-a-string) |
