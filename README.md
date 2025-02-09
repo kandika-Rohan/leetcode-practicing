@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1803-average-waiting-time) |
 | [1833-find-the-highest-altitude](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
 ## Breadth-First Search
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2121-find-if-path-exists-in-graph](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2121-find-if-path-exists-in-graph) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
