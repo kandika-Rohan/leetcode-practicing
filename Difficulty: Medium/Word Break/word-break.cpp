@@ -11,36 +11,94 @@ using namespace std;
 // s : given string to search
 // dictionary : vector of available strings
 
-class Solution
-{
+class TRIE{
+    struct trie{
+        trie*children[26];
+        bool isend;
+
+        trie(){
+            isend=false;
+            fill(begin(children),end(children),nullptr);
+        }
+    };
+
+    public:
+    trie*root;
+
+    TRIE(){
+
+        root=new trie();
+    }
+
+    void insert(string word){
+
+        trie*node=root;
+
+        for(auto it:word){
+            int ind=it-'a';
+            if(node->children[ind] == nullptr){
+                node->children[ind]=new trie();
+            }
+            node=node->children[ind];
+        }
+        node->isend=true;
+    }
+
+    bool search(int start,int end,string word){
+
+        trie*node=root;
+        
+        for(int i=start;i<=end;i++){
+            
+            int ind=word[i]-'a';
+
+            if(!node->children[ind]){
+
+                return false;
+            }
+
+            node=node->children[ind];
+        }
+        return node->isend;
+    }
+};
+
+class Solution {
 public:
-int f(int i, int n, string s, set<string>& st,vector<int>&dp) {
-    if (i == n) {
-        return 1; // Reached the end of the string successfully
-    }
-    if(dp[i] != -1){
-        return dp[i];
-    }
-    string temp = "";
-    for (int j = i; j < n; j++) {
-        temp += s[j];
-        if (st.find(temp) != st.end()) {
-            if (f(j + 1, n, s, st,dp)) {
-                return dp[i]=1;
+    int wordBreak(int n, string s, vector<string> &wordDict) {
+        
+
+        TRIE t;
+       
+        
+
+        for(auto it:wordDict){
+            t.insert(it);
+        }
+
+       
+
+        vector<bool>dp(s.size()+1,0);
+
+        dp[0]=true;
+
+        for(int i=1;i<=s.size();i++){
+
+            for(int j=0;j<i;j++){
+
+                if(dp[j] && t.search(j,i-1,s)){
+
+                    dp[i]=true;
+
+                    break;
+                }
             }
         }
-    }
-    return dp[i]=0; // Couldn't segment the string properly
-}
 
-int wordBreak(int n, string s, vector<string>& dictionary) {
-    set<string> st(dictionary.begin(), dictionary.end()); 
-    // Convert vector to set for O(1) lookups
-    int m=s.size();
-    vector<int>dp(m,-1);
-    return f(0, m, s, st,dp);
-}
+        return dp[s.size()];
+    }
 };
+
 
 //{ Driver Code Starts.
 
@@ -60,7 +118,9 @@ int main(){
         cin>>s;
         Solution ob;
         cout<<ob.wordBreak(n, s, dictionary)<<"\n";
-    }
+    
+cout << "~" << "\n";
+}
 }
 
 // } Driver Code Ends
