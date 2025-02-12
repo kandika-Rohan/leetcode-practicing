@@ -12,21 +12,21 @@ class Solution {
   public:
     // Function to find if there is a celebrity in the party or not.
     int celebrity(vector<vector<int> >& mat) {
+        // code here
         int n=mat.size();
-        vector<int>know_me(n,0);
-        vector<int>i_know_me(n,0);
+        vector<int>known(n,0),unknown(n,0);
         
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(mat[i][j]==1){
-                    know_me[j]++;
-                    i_know_me[i]++;
+                if(mat[i][j] == 1){
+                    known[i]++;
+                    unknown[j]++;
                 }
             }
         }
         
         for(int i=0;i<n;i++){
-            if(i_know_me[i]==0 && know_me[i]==n-1){
+            if(known[i]==0 && unknown[i] == n-1){
                 return i;
             }
         }
@@ -50,6 +50,7 @@ int main() {
         }
         Solution ob;
         cout << ob.celebrity(M) << endl;
+        cout << "~" << endl;
     }
 }
 
