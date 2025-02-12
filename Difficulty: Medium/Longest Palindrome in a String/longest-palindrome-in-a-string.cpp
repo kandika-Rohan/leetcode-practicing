@@ -1,64 +1,73 @@
 //{ Driver Code Starts
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 
 // } Driver Code Ends
-
 class Solution {
-    
-     string printLCS(string &s, string &t) {
-        int n = s.size();
-        int m = t.size();
-
-        vector<vector<int>> dp(n + 1,vector<int>(m + 1,0));
-        int maxLen = 0;
-        int endIndex = 0;
+  public:
+    string longestPalindrome(string s) {
+        // code here
+        int n=s.size();
+        if(n <= 1){
+            return s;
+        }
         
-        for (int i = 1; i <= n; ++i) {
-            for (int j = 1; j <= m; ++j) {
-                if (s[i - 1] == t[j - 1]) {
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
+        int start=0;
+        int maxlen=1;
+        
+        vector<vector<bool>>dp(n,vector<bool>(n,false));
+        
+        for(int i=0;i<n;i++){
+            dp[i][i]=true;
+        }
+        bool flag=false;
+        
+        for(int i=0;i<n-1;i++){
+            if(s[i] == s[i+1]){
+                dp[i][i+1]=true;
+                maxlen=2;
+                if(flag == false){
+                    start=i;
+                }
+                flag=true;
+            }
+        }
+        for(int len=3;len<=n;len++){
+            
+            for(int i=0;i<=n-len;i++){
+                
+                int j=i+len-1;
+                
+                if(s[i] == s[j] && dp[i+1][j-1]){
+                    dp[i][j]=true;
                     
-                    int substringLength = dp[i][j];
-                    int originalStart = i - substringLength;
-                    int reverseStart = m - j;
-                   
-                    if (originalStart == reverseStart) {
-                        if (substringLength > maxLen) {
-                            maxLen = substringLength;
-                            endIndex = i - 1;
-                        }
+                    if(maxlen<len){
+                        maxlen=len;
+                        start=i;
                     }
                 }
             }
         }
-        
-        return s.substr(endIndex - maxLen + 1, maxLen);
-    }
-  public:
-    string longestPalin (string s) {
-       string t=s;
-       reverse(t.begin(),t.end());
-       return printLCS(s,t);
+        return s.substr(start,maxlen);
     }
 };
 
-
-
 //{ Driver Code Starts.
 
-int main()
-{
-    int t; cin >> t;
-    while (t--)
-    {
-        string S; cin >> S;
-        
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        string S;
+        cin >> S;
+
         Solution ob;
-        cout << ob.longestPalin (S) << endl;
+        cout << ob.longestPalindrome(S) << endl;
+
+        cout << "~"
+             << "\n";
     }
 }
-// Contributed By: Pranay Bansal
 
 // } Driver Code Ends
