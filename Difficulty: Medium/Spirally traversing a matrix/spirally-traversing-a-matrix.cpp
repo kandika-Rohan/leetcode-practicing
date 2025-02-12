@@ -4,45 +4,40 @@ using namespace std;
 
 
 // } Driver Code Ends
-
 class Solution {
   public:
-    vector<int> spirallyTraverse(vector<vector<int> > &matrix) {
-        int m=matrix[0].size();
-        int n=matrix.size();
-        int top=0;
-        int left=0;
-        int right=m-1;
-        int bottom=n-1;
+    vector<int> spirallyTraverse(vector<vector<int> > &mat) {
+        // code here
+        int n=mat.size();
+        
+        int m=mat[0].size();
+        
         vector<int>ans;
-        while(left<=right && top <=bottom){
+        
+        
+        int top=0,bottom=n-1,left=0,right=m-1;
+        
+        while(top<=bottom && left<=right){
             
-            //printing first row
             for(int i=left;i<=right;i++){
-                ans.push_back(matrix[top][i]);
+                ans.push_back(mat[top][i]);
             }
             top++;
             
-            //printing last column
-            
             for(int i=top;i<=bottom;i++){
-                ans.push_back(matrix[i][right]);
+                ans.push_back(mat[i][right]);
             }
             right--;
             
-            //printing last row
-            
-            if(top <= bottom){
+            if(bottom>=top){
                 for(int i=right;i>=left;i--){
-                    ans.push_back(matrix[bottom][i]);
+                    ans.push_back(mat[bottom][i]);
                 }
                 bottom--;
             }
-            
-            //printing the first column
-            if(left<=right){
+            if(right>=left){
                 for(int i=bottom;i>=top;i--){
-                    ans.push_back(matrix[i][left]);
+                    ans.push_back(mat[i][left]);
                 }
                 left++;
             }
@@ -50,7 +45,6 @@ class Solution {
         return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 int main() {
@@ -60,9 +54,10 @@ int main() {
     while (t--) {
         int r, c;
         cin >> r >> c;
-        vector<vector<int>> matrix(r, vector<int>(c, 0));
+        vector<vector<int>> matrix(r);
 
         for (int i = 0; i < r; i++) {
+            matrix[i].assign(c, 0);
             for (int j = 0; j < c; j++) {
                 cin >> matrix[i][j];
             }
@@ -73,6 +68,9 @@ int main() {
         for (int i = 0; i < result.size(); ++i)
             cout << result[i] << " ";
         cout << endl;
+
+        cout << "~"
+             << "\n";
     }
     return 0;
 }
