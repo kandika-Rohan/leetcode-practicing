@@ -10,20 +10,28 @@ class Solution {
 
     string printString(string s, char ch, int count) {
         // Your code goes here
-        string temp="";
-        int cnt=-1;
-        for(int i=0;i<s.size();i++){
-            if(s[i]==ch){
-                count--;
-                if(count==0){
-                    cnt=i+1;
-                }
+       
+        int start=-1;
+        
+        int c=0;
+        
+        for(int it=0;it<s.size();it++){
+            if(s[it] == ch){
+                c++;
+            }
+            
+            if(c == count){
+                start=it;
+                break;
             }
         }
-        if(cnt >=s.size()){
+        
+        if(start == -1 || start >= s.size()){
             return "";
         }
-        return s.substr(cnt,s.size());
+        
+       return s.substr(start+1);
+        
     }
 };
 
@@ -45,6 +53,9 @@ int main() {
         cin >> s >> ch >> count;
         Solution ob;
         cout << ob.printString(s, ch, count) << "\n";
+
+        cout << "~"
+             << "\n";
     }
 
     return 0;
