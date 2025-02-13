@@ -4,27 +4,28 @@ using namespace std;
 
 
 // } Driver Code Ends
-
 class Solution {
-public:
+  public:
+
     bool kPangram(string str, int k) {
-        vector<bool> arr(26, false);
-        int total=0;
-        for (char c : str) {
-            if (isalpha(c)) {
-                arr[tolower(c) - 'a'] = true;
-                total++;
+        // code here
+        vector<int>hash(26,0);
+        int count=0;
+        for(auto it:str){
+            if(isalpha(it)){
+                count++;
+                hash[it-'a']=1;
             }
         }
-        if(total<26) return false;
-        int count = 0;
-        for (bool present : arr) {
-            if (!present) count++;
+        int c=0;
+        for(int i=0;i<26;i++){
+            if(hash[i] == 0){
+                c++;
+            }
         }
-        return count <= k;
+        return c<=k && count>=26;
     }
 };
-
 
 //{ Driver Code Starts.
 
@@ -45,6 +46,7 @@ int main() {
             cout << "true" << endl;
         else
             cout << "false" << endl;
+        cout << "~\n";
     }
     return 0;
 }
