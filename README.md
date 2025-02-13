@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2386-min-max-game](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2386-min-max-game) |
 | [2411-spiral-matrix-iv](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2411-spiral-matrix-iv) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3447-clear-digits) |
 ## Tree
@@ -815,6 +817,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Graph
 |  |
 | ------- |
