@@ -12,19 +12,14 @@ class Solution {
   public:
     int totalCount(int k, vector<int>& arr) {
         // code here
-        int sum=0;
+        int ans=0;
+        
         for(auto it:arr){
             
-            int val=it/k;
-           
-            if(it%k == 0){
-                sum+=val;
-            }
-            else{
-                sum+=val+1;
-            }
+            ans+=(ceil((float)it/k));
         }
-        return sum;
+        
+        return ans;
     }
 };
 
@@ -49,6 +44,7 @@ int main() {
         Solution obj;
         int res = obj.totalCount(k, arr);
         cout << res << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
