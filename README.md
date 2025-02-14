@@ -411,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0424-longest-repeating-character-replacement) |
 | [0539-minimum-time-difference](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0539-minimum-time-difference) |
@@ -689,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0394-decode-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0735-asteroid-collision) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0943-sum-of-subarray-minimums](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0943-sum-of-subarray-minimums) |
@@ -983,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0044-wildcard-matching) |
 | [0143-reorder-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0143-reorder-list) |
+| [0394-decode-string](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0486-predict-the-winner) |
 ## Ordered Set
 |  |
