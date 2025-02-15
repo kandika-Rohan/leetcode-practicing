@@ -6,100 +6,85 @@ using namespace std;
 
 // } Driver Code Ends
 //User function template for C++
-
-class Trie {
-private:
-    struct trie {
-        trie* links[26];
-        bool endOfWord;
-
-        trie() {
-            endOfWord = false;
-            fill(begin(links), end(links), nullptr);
+class Node{
+    public:
+    Node* children[26];
+    bool isTerminal;
+    Node()
+    {
+        for(int i=0;i<26;i++){
+          this->children[i]=NULL;
         }
-    };
-
-public:
-    trie* root;
-    Trie() {
-        root = new trie();
-    }
-
-    void insert(string word) {
-        trie* node = root;
-
-        for (auto it : word) {
-            int ind = it - 'a';
-
-            if (node->links[ind] == nullptr) {
-                node->links[ind] = new trie();
-            }
-            node = node->links[ind];
-        }
-
-        node->endOfWord = true;
-    }
-
-    bool search(string word) {
-        trie* node = root;
-
-        for (auto it : word) {
-            int ind = it - 'a';
-
-            if (node->links[ind] == nullptr) {
-                return false;
-            }
-            node = node->links[ind];
-        }
-
-        return node->endOfWord;
-    }
-
-    bool searchPrefix(string word, int start, int end) {
-        trie* node = root;
-
-        for (int i = start; i <= end; i++) {
-            int ind = word[i] - 'a';
-
-            if (node->links[ind] == nullptr) {
-                return false;
-            }
-            node = node->links[ind];
-        }
-
-        return node->endOfWord;
+        
+        this->isTerminal = false;
     }
 };
 
-class Solution {
-public:
+class Trie{
+    private:
+    Node* root;
+    public:
+    Trie()
+    {
+        root=new Node();
+    }
+    
+    void insert(string &str)
+    {
+        Node* curr = root;
+        for(int i=0;i<str.size();i++)
+        {
+            int index = str[i]-'a';
+            if(curr->children[index]==NULL)
+            {
+                curr->children[index] = new Node();
+            }
+            curr=curr->children[index];
+        }
+        curr->isTerminal = true;
+    }
+    
+    bool solve(string str,int start)
+    {
+        if(start>=str.size())
+        return true;
+        Node* curr = root;
+        bool ans = 0;
+        for(int i=start;i<str.size();i++)
+        {
+            int index = str[i]-'a';
+            if(curr->children[index]==NULL)
+            return false;
+            else{
+                 curr=curr->children[index];
+                 if(curr->isTerminal==true)
+                 {
+                   if(solve(str,i+1)==true)
+                   return true;
+                 }
+            }
+        }
+        return false;
+    }
+    
+};
+
+class Solution{
+    public:
+    // A : given string to search
+    // B : vector of available strings
+    
     int wordBreak(string A, vector<string> &B) {
-        Trie t;
-
-        // Insert all the words from dictionary B into the Trie
-        for (auto it : B) {
-            t.insert(it);
+        //code here
+        Trie trie;
+        for(int i=0;i<B.size();i++)
+        {
+            trie.insert(B[i]);
         }
-
-        int n = A.size();
-        vector<bool> dp(n + 1, false);
-        dp[0] = true; // base case: empty string can be segmented
-
-        // Dynamic Programming approach
-        for (int i = 1; i <= n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (dp[j] && t.searchPrefix(A, j, i - 1)) {
-                    dp[i] = true;
-                    break; // No need to check further if A[0..i-1] can be segmented
-                }
-            }
-        }
-
-        return dp[n] ? 1 : 0;
+        
+        return trie.solve(A,0);
     }
 };
-
-
 
 //{ Driver Code Starts.
 int main(){
@@ -118,7 +103,9 @@ int main(){
         cin>>line;
         Solution ob;
         cout<<ob.wordBreak(line, dict)<<"\n";
-    }
+    
+cout << "~" << "\n";
+}
 }
 
 // } Driver Code Ends
