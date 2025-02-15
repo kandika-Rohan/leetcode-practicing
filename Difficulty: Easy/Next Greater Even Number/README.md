@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/next-greater-even-number0828/1?page=1&company=Zoho&status=unsolved&sortBy=submissions">Next Greater Even Number</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a positive integer <strong>x</strong>. The task is to find the smallest even number <strong>e</strong> such that <strong>e &gt; x</strong> and all digits in <strong>x</strong> and <strong>e</strong> are the same.<br>Note: If no possible number exists then return -1.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>x = 34722641
+<strong>Output: </strong>34724126
+<strong>Explanation: </strong>Next greater number with same digits as in input is 34724126.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>x = 111
+<strong>Output: </strong>-1</span>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 18px;">You can't rearrange the digits to get an answer.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(logn)<br><strong>Expected Auxiliary Space:</strong> O(1)<br><br><strong>Constraints:</strong><br>1 ≤ x.size() ≤ 10</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Zoho</code>&nbsp;<code>Amazon</code>&nbsp;<code>FactSet</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Yahoo</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Strings</code>&nbsp;<code>Sorting</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
