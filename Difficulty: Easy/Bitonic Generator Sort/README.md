@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/bitonic-generator-sort3343/1?page=1&company=Zoho&status=unsolved&sortBy=submissions">Bitonic Generator Sort</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr</strong>&nbsp;the task is to sort all even-placed numbers in increasing and odd-place numbers in decreasing order. The modified array should contain all sorted even-placed numbers followed by reverse sorted odd-placed numbers.<br>Note: that the first element is considered as even because of its index 0.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [0, 1, 2, 3, 4, 5, 6, 7]
+<strong>Output:</strong> [0, 2, 4, 6, 7, 5, 3, 1]
+<strong>Explanation</strong>: Even-place elements : 0, 2, 4, 6 Odd-place elements : 1, 3, 5, 7 Even-place elements in increasing order : 0, 2, 4, 6 Odd-Place elements in decreasing order : 7, 5, 3, 1</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 1, 2, 4, 5, 9, 13, 14, 12]
+<strong>Output:</strong> [2, 3, 5, 12, 13, 14, 9, 4, 1]
+<strong>Explanation</strong>: Even-place elements : 3, 2, 5, 13, 12 Odd-place elements : 1, 4, 9, 14 Even-place elements in increasing order : 2, 3, 5, 12, 13 Odd-Place elements in decreasing order : 14, 9, 4, 1</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Auxiliary Space:</strong> O(nlogn)<br><strong>Expected Auxilary Space:</strong> O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>5<br></sup>1 ≤ arr[i] ≤ 10<sup>5</sup><sup><br></sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Zoho</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Sorting</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
