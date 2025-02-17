@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0813-all-paths-from-source-to-target) |
+| [1160-letter-tile-possibilities](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1160-letter-tile-possibilities) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Linked List
 |  |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-distinct-subsequences-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0977-distinct-subsequences-ii) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1160-letter-tile-possibilities](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1250-longest-common-subsequence) |
 | [1508-longest-happy-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1508-longest-happy-prefix) |
@@ -630,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1087-longest-arithmetic-subsequence](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1087-longest-arithmetic-subsequence) |
 | [1129-longest-string-chain](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1129-longest-string-chain) |
+| [1160-letter-tile-possibilities](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1364-tuple-with-same-product) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -962,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0948-sort-an-array) |
+| [1160-letter-tile-possibilities](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1396-count-servers-that-communicate) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1890-sum-of-beauty-of-all-substrings) |
