@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0907-koko-eating-bananas) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0943-sum-of-subarray-minimums](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0943-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0948-sort-an-array) |
 | [0967-minimum-falling-path-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0967-minimum-falling-path-sum) |
@@ -492,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1005-univalued-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1005-univalued-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
@@ -592,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1005-univalued-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1005-univalued-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
@@ -627,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0989-largest-component-size-by-common-factor](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0989-largest-component-size-by-common-factor) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -682,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0493-reverse-pairs](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0493-reverse-pairs) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0948-sort-an-array) |
 ## Stack
 |  |
