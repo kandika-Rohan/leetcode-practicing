@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0989-largest-component-size-by-common-factor](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/0989-largest-component-size-by-common-factor) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1477-product-of-the-last-k-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2507-number-of-common-factors](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2507-number-of-common-factors) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1646-kth-missing-positive-number](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -1011,6 +1014,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1435-xor-queries-of-a-subarray) |
 | [1477-product-of-the-last-k-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1477-product-of-the-last-k-numbers) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1833-find-the-highest-altitude) |
 ## Game Theory
 |  |
