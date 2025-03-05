@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2507-number-of-common-factors](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2507-number-of-common-factors) |
+| [2649-count-total-number-of-colored-cells](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2649-count-total-number-of-colored-cells) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3227-find-missing-and-repeated-values](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3227-find-missing-and-repeated-values) |
