@@ -453,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3447-clear-digits](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3447-clear-digits) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -662,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -948,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3483-alternating-groups-ii) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
