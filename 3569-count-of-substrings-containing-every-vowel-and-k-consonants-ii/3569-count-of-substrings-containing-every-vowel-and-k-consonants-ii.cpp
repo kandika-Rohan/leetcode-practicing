@@ -1,45 +1,40 @@
 class Solution {
 public:
-    long long countAtLeastMConsonants(const string &word, int m) {
-        long long n = word.size();
-        unordered_set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
-        unordered_map<char, int> vowels_map;
-        long long num_consonants = 0;
-        long long ans = 0;
-        long long l = 0, r = 0;
+    bool isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+    }
 
-        while (r < n || l < n) {
-            if (vowels_map.size() == 5 && num_consonants >= m) {
-                ans += n - r + 1;
-                if (vowels.find(word[l]) == vowels.end()) {
-                    // It's a consonant
-                    num_consonants--;
-                } else {
-                    vowels_map[word[l]]--;
-                    if (vowels_map[word[l]] == 0) {
-                        vowels_map.erase(word[l]);
-                    }
-                }
-                l++;
+    long long atLeastK(string& word, int k) {
+        int n = word.size();
+        long long ans = 0;
+        int consonants = 0;
+        int left = 0;
+        unordered_map<char, int> vowel_map;
+
+        for (int right = 0; right < n; right++) {
+            if (isVowel(word[right])) {
+                vowel_map[word[right]]++;
             } else {
-                if (r == n) {
-                    break;
-                }
-                if (vowels.find(word[r]) == vowels.end()) {
-                   
-                    num_consonants++;
+                consonants++;
+            }
+
+            while (vowel_map.size() == 5 && consonants >= k) {
+                ans += n - right;
+                if (isVowel(word[left])) {
+                    vowel_map[word[left]]--;
+                    if (vowel_map[word[left]] == 0) {
+                        vowel_map.erase(word[left]);
+                    }
                 } else {
-                    vowels_map[word[r]]++;
+                    consonants--;
                 }
-                r++;
+                left++;
             }
         }
-
         return ans;
     }
 
-    long long  countOfSubstrings(string word, int k) {
-        
-        return countAtLeastMConsonants(word, k) - countAtLeastMConsonants(word, k + 1);
+    long long countOfSubstrings(string word, int k) {
+        return atLeastK(word, k) - atLeastK(word, k + 1);
     }
 };
