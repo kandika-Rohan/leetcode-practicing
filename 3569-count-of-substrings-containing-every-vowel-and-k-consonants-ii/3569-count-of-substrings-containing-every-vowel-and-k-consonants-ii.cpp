@@ -39,6 +39,7 @@ public:
     }
 
     long long  countOfSubstrings(string word, int k) {
+        
         return countAtLeastMConsonants(word, k) - countAtLeastMConsonants(word, k + 1);
     }
 };
