@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
 | [3483-alternating-groups-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3483-alternating-groups-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3643-zero-array-transformation-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3643-zero-array-transformation-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -693,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1753-path-with-minimum-effort) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3643-zero-array-transformation-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3643-zero-array-transformation-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1032,6 +1034,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1833-find-the-highest-altitude](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/1833-find-the-highest-altitude) |
+| [3643-zero-array-transformation-ii](https://github.com/kandika-Rohan/leetcode-practicing/tree/master/3643-zero-array-transformation-ii) |
 ## Game Theory
 |  |
 | ------- |
