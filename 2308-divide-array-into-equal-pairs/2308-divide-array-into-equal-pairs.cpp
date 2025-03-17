@@ -1,20 +1,25 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
+        
         unordered_map<int,int>map;
+
         for(auto it:nums){
             map[it]++;
         }
-
         int n=nums.size();
-        int val=n/2;
-        int sum=0;
+        int cnt=0;
         for(auto it:map){
-            int val=it.second;
-            if(val % 2 !=0){
+            
+            int val=it.first;
+            int count=it.second;
+            cout<<val<<" "<<count<<endl;
+            if(count<2){
                 return false;
             }
+            cnt+=(count/2);
         }
-        return true;
+
+        return cnt>=n/2;
     }
 };
