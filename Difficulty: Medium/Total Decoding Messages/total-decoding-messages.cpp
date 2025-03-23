@@ -7,52 +7,56 @@ using namespace std;
 
 class Solution {
   public:
-    int numDecodingsHelper(int i, const string &s) {
+    int f(int i,string digits,vector<int>&dp){
         
-        if (i == s.size()) {
+        if(i >= digits.size()){
             return 1;
         }
-        
-        
-        if (s[i] == '0') {
-            return 0;
+        if(dp[i] != -1){
+            return dp[i];
         }
         
-        
-        int ways = numDecodingsHelper(i + 1, s);
-        
-        
-        if (i + 1 < s.size()) {
-            
-            int twoDigit = (s[i] - '0') * 10 + (s[i + 1] - '0');
-            
-            if (twoDigit >= 10 && twoDigit <= 26) {
+        string temp="";
+        int count=0;
+        for(int j=i;j<digits.size();j++){
+            temp+=digits[j];
+            if(temp.size()>=1 && temp.size()<=2 && temp[0] != '0'){
                 
-                ways += numDecodingsHelper(i + 2, s);
+                int val=std::stoi(temp);
                 
+                if(val>=1 && val<=26){
+                    count+=0+f(j+1,digits,dp);
+                }
+            }
+            else{
+                break;
             }
         }
-        
-        return ways;
+        return dp[i]=count;
     }
-    
-    int countWays(string s) {
-        return numDecodingsHelper(0, s);
+    int countWays(string &digits) {
+        // Code here
+        vector<int>dp(digits.size(),-1);
+        return f(0,digits,dp);
+        
     }
 };
-
 
 
 //{ Driver Code Starts.
 int main() {
     int tc;
     cin >> tc;
+    cin.ignore();
     while (tc--) {
-        string s;
-        cin >> s;
+        string digits;
+        getline(cin, digits);
         Solution obj;
-        int ans = obj.countWays(s);
+        int ans = obj.countWays(digits);
         cout << ans << "\n";
+
+        cout << "~"
+             << "\n";
     }
     return 0;
 }
